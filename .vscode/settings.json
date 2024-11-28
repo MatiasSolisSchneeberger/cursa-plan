@@ -1,7 +1,22 @@
 {
-    "workbench.colorCustomizations": {
-        "activityBar.background": "#153329",
-        "titleBar.activeBackground": "#1D4739",
-        "titleBar.activeForeground": "#F5FBF9"
+    "cSpell.words": [
+        "fontsource",
+        "poppins",
+        "typescale"
+    ],
+    "spellright.language": [
+        "en",
+        "es"
+    ],
+    "spellright.documentTypes": [
+        "markdown",
+        "latex",
+        "plaintext",
+        "astro"
+    ],
+    "spellright.parserByClass": {
+        "astro": {
+            "parser": "code"
+        }
     }
 }
