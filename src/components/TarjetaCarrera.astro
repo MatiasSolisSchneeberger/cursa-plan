@@ -12,39 +12,7 @@ const nombreCarrera = carrera.replace(/-/g, ' ');
 
 <div
 	class:list={[
-		`rounded-3xl shadow-1 hover:shadow-5 bg-gradient-to-r from-carrera-${carrera} from-25% hover:scale-105 border-solid border-outline border p-3 flex flex-col items-start justify-between flex-1 h-56 relative overflow-hidden transition-all duration-300`,
-		/* {
-			"bg-gradient-to-r from-carrera-Bioquímica from-25%":
-				carrera === "Bioquímica",
-			"bg-gradient-to-r from-carrera-Ingeniería-en-Agrimensura from-25%":
-				carrera === "Ingeniería en Agrimensura",
-			"bg-gradient-to-r from-carrera-Ingeniería-Eléctrica from-25%":
-				carrera === "Ingeniería Eléctrica",
-			"bg-gradient-to-r from-carrera-Ingeniería-en-Electrónica from-25%":
-				carrera === "Ingeniería en Electrónica",
-			"bg-gradient-to-r from-carrera-Licenciatura-en-Ciencias-Biológicas from-25%":
-				carrera === "Licenciatura en Ciencias Biológicas",
-			"bg-gradient-to-r from-carrera-Licenciatura-en-Ciencias-Físicas from-25%":
-				carrera === "Licenciatura en Ciencias Físicas",
-			"bg-gradient-to-r from-carrera-Licenciatura-en-Ciencias-Químicas from-25%":
-				carrera === "Licenciatura en Ciencias Químicas",
-			"bg-gradient-to-r from-carrera-Licenciatura-en-Matemática from-25%":
-				carrera === "Licenciatura en Matemática",
-			"bg-gradient-to-r from-carrera-Licenciatura-en-Sistemas-de-Información from-25%":
-				carrera === "Licenciatura en Sistemas de Información",
-			"bg-gradient-to-r from-carrera-Licenciatura-en-Didáctica-de-la-Matemática from-25%":
-				carrera === "Licenciatura en Didáctica de la Matemática",
-			"bg-gradient-to-r from-carrera-Profesorado-en-Biología from-25%":
-				carrera === "Profesorado en Biología",
-			"bg-gradient-to-r from-carrera-Profesorado-en-Ciencias-Químicas-y-del-Ambiente from-25%":
-				carrera === "Profesorado en Ciencias Químicas y del Ambiente",
-			"bg-gradient-to-r from-carrera-Profesorado-en-Física from-25%":
-				carrera === "Profesorado en Física",
-			"bg-gradient-to-r from-carrera-Profesorado-en-Matemática from-25%":
-				carrera === "Profesorado en Matemática",
-			"bg-gradient-to-r from-carrera-Profesorado-Universitario-en-Informática from-25%":
-				carrera === "Profesorado Universitario en Informática",
-		}, */
+		`rounded-3xl shadow-1 hover:shadow-5 bg-gradient-to-r from-carrera-${carrera} from-25% hover:scale-105 border-solid border-outline border p-3 flex flex-row sm:flex-col items-start justify-between flex-1 h-min sm:h-56 relative overflow-hidden transition-all duration-300`,
 	]}>
 	<div class="bg-surface-variant rounded-full p-3 flex flex-row gap-2.5 items-center justify-center shrink-0 w-10 h-10 relative">
 		<div class="text-on-primary text-center text-title-large relative flex items-center justify-center">
@@ -52,7 +20,7 @@ const nombreCarrera = carrera.replace(/-/g, ' ');
 		</div>
 	</div>
 
-	<div class="text-on-background text-center text-title-large relative self-stretch flex items-center justify-center">
+	<div class="text-on-background text-center text-title-large relative self-stretch flex items-center justify-center w-full">
 		{nombreCarrera}
 	</div>
 </div>
