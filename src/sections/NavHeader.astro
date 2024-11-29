@@ -1,37 +1,15 @@
 ---
-import { IconSun, IconSchool , IconMoon} from '@tabler/icons-react';
+import LogoPagina from "@components/LogoPagina.astro";
+
 ---
 
-<header 
+<header
 	class="bg-surface-variant shadow-1 rounded-3xl p-5 flex flex-row items-center justify-between self-stretch shrink-0 relative overflow-hidden">
 	<!-- Logo -->
-	<a
-		href="/"
-		class="bg-primary-container text-on-primary-container rounded-lg p-2.5 flex flex-row gap-2.5 items-center justify-center self-stretch shrink-0 relative overflow-hidden">
-		<IconSchool size={24} />
-		<div
-			class=" text-center font-['Poppins-Bold',_sans-serif] text-sm font-bold relative flex items-center justify-center"
-			style="letter-spacing: -0.25px">
-			CursaPlan
-		</div>
-	</a>
+	<LogoPagina />
 	<!-- Menu -->
 	<nav class="flex flex-row gap-2 items-center justify-center shrink-0 relative">
 		<md-filled-button>Carreras</md-filled-button>
-		<md-filled-icon-button id="toggle-theme">
-			<IconSun className="text-on-primary dark:hidden" size={24} />
-			<IconMoon className="text-on-primary hidden dark:block" size={24} />
-		</md-filled-icon-button>
 	</nav>
 </header>
 
-<script>
-	// Cambiar el tema al hacer clic en un botón
-	const toggleThemeButton = document.getElementById("toggle-theme")
-
-	toggleThemeButton.addEventListener("click", () => {
-		const currentTheme = document.documentElement.getAttribute("data-theme")
-		const newTheme = currentTheme === "light" ? "dark" : "light"
-		document.documentElement.setAttribute("data-theme", newTheme)
-	})
-</script>

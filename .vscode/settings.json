@@ -18,5 +18,10 @@
         "astro": {
             "parser": "code"
         }
+    },
+    "workbench.colorCustomizations": {
+        "activityBar.background": "#1d2267",
+        "titleBar.activeBackground": "#294590",
+        "titleBar.activeForeground": "#fcfcfe"
     }
 }

@@ -1,28 +1,29 @@
 ---
 /* Importar fuentes de Poppins */
-import '@fontsource/poppins/100.css';
-import '@fontsource/poppins/200.css';
-import '@fontsource/poppins/300.css';
-import '@fontsource/poppins/400.css';
-import '@fontsource/poppins/500.css';
-import '@fontsource/poppins/600.css';
-import '@fontsource/poppins/700.css';
-import '@fontsource/poppins/800.css';
-import '@fontsource/poppins/900.css';
+import "@fontsource/poppins/100.css"
+import "@fontsource/poppins/200.css"
+import "@fontsource/poppins/300.css"
+import "@fontsource/poppins/400.css"
+import "@fontsource/poppins/500.css"
+import "@fontsource/poppins/600.css"
+import "@fontsource/poppins/700.css"
+import "@fontsource/poppins/800.css"
+import "@fontsource/poppins/900.css"
 
-import '@fontsource/poppins/100-italic.css';
-import '@fontsource/poppins/200-italic.css';
-import '@fontsource/poppins/300-italic.css';
-import '@fontsource/poppins/400-italic.css';
-import '@fontsource/poppins/500-italic.css';
-import '@fontsource/poppins/600-italic.css';
-import '@fontsource/poppins/700-italic.css';
-import '@fontsource/poppins/800-italic.css';
-import '@fontsource/poppins/900-italic.css';
+import "@fontsource/poppins/100-italic.css"
+import "@fontsource/poppins/200-italic.css"
+import "@fontsource/poppins/300-italic.css"
+import "@fontsource/poppins/400-italic.css"
+import "@fontsource/poppins/500-italic.css"
+import "@fontsource/poppins/600-italic.css"
+import "@fontsource/poppins/700-italic.css"
+import "@fontsource/poppins/800-italic.css"
+import "@fontsource/poppins/900-italic.css"
 
 /* Importar componentes */
-import NavHeader from '@sections/NavHeader.astro';
-
+import NavHeader from "@sections/NavHeader.astro"
+import BotonTema from "@components/BotonTema.astro"
+import Footer from "@sections/Footer.astro"
 interface Props {
 	title: string
 }
@@ -34,11 +35,11 @@ const {title} = Astro.props
 <html lang="es" data-theme="light">
 	<head>
 		<meta charset="UTF-8" />
-		<meta name="description" content="CursaPlan | Plan de estudios de las carreras de la FaCENA" />
+		<meta name="description" content="CursaPlan | Plan de estudios de alas carreras de la FaCENA, 0.50" />
 		<meta name="viewport" content="width=device-width" />
 		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
 		<meta name="generator" content={Astro.generator} />
-		<link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined" rel="stylesheet" />
 		<title>{title}</title>
 		<!-- Importar Material Web -->
 		<script type="importmap">
@@ -55,9 +56,14 @@ const {title} = Astro.props
 			document.adoptedStyleSheets.push(typescaleStyles.styleSheet)
 		</script>
 	</head>
-	<body class="bg-[var(--md-sys-color-background)] p-4 sm:py-6 sm:px-36">
-		<NavHeader />
-		<slot />
+	<body>
+		<main
+			class="bg-[var(--md-sys-color-background)] flex flex-col gap-6 p-4 sm:py-6 sm:px-12 md:py-8 md:px-16 lg:py-10 lg:px-20 w-full">
+			<NavHeader />
+			<slot />
+			<BotonTema />
+			<Footer />
+		</main>
 	</body>
 </html>
 
@@ -65,7 +71,6 @@ const {title} = Astro.props
 	/* Importar Poppins	*/
 	@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 	:root {
-
 		--md-sys-typescale-display-medium-font: "Poppins", sans-serif;
 		--md-sys-typescale-display-medium-size: 24px;
 		--md-sys-typescale-display-medium-line-height: 32px;
@@ -90,8 +95,6 @@ const {title} = Astro.props
 		--md-sys-typescale-label-medium-size: 4rem;
 		--md-sys-typescale-label-medium-line-height: 5.333333333333333rem;
 		--md-sys-typescale-label-medium-weight: 500;
-
-
 	}
 
 	[data-theme="light"] {
@@ -144,11 +147,30 @@ const {title} = Astro.props
 		--md-sys-color-surface-container: rgb(238, 237, 239);
 		--md-sys-color-surface-container-high: rgb(233, 232, 234);
 		--md-sys-color-surface-container-highest: rgb(227, 226, 228);
-		--m3-elevation-1-box-shadow: 0rem 0.25rem 0.75rem 0.25rem rgba(0, 0, 0, 0.15), 0rem 0.25rem 0.5rem 0rem rgba(0, 0, 0, 0.3);
-		--m3-elevation-2-box-shadow: 0rem 0.5rem 1.5rem 0.5rem rgba(0, 0, 0, 0.15), 0rem 0.25rem 0.5rem 0rem rgba(0, 0, 0, 0.3);
-		--m3-elevation-3-box-shadow: 0rem 0.25rem 0.75rem 0rem rgba(0, 0, 0, 0.3), 0rem 1rem 2rem 0.75rem rgba(0, 0, 0, 0.15);
-		--m3-elevation-4-box-shadow: 0rem 0.5rem 0.75rem 0rem rgba(0, 0, 0, 0.3), 0rem 1.5rem 2.5rem 1rem rgba(0, 0, 0, 0.15);
+		--m3-elevation-1-box-shadow: 0rem 0.25rem 0.75rem 0.25rem rgba(0, 0, 0, 0.15),
+			0rem 0.25rem 0.5rem 0rem rgba(0, 0, 0, 0.3);
+		--m3-elevation-2-box-shadow: 0rem 0.5rem 1.5rem 0.5rem rgba(0, 0, 0, 0.15),
+			0rem 0.25rem 0.5rem 0rem rgba(0, 0, 0, 0.3);
+		--m3-elevation-3-box-shadow: 0rem 0.25rem 0.75rem 0rem rgba(0, 0, 0, 0.3),
+			0rem 1rem 2rem 0.75rem rgba(0, 0, 0, 0.15);
+		--m3-elevation-4-box-shadow: 0rem 0.5rem 0.75rem 0rem rgba(0, 0, 0, 0.3),
+			0rem 1.5rem 2.5rem 1rem rgba(0, 0, 0, 0.15);
 		--m3-elevation-5-box-shadow: 0rem 1rem 1rem 0rem rgba(0, 0, 0, 0.3), 0rem 2rem 3rem 1.5rem rgba(0, 0, 0, 0.15);
+		--carrera-Bioquímica: rgba(55, 105, 61, 0.5);
+		--carrera-Ingeniería-en-Agrimensura: rgba(140, 79, 39, 0.5);
+		--carrera-Ingeniería-Eléctrica: rgba(111, 93, 14, 0.5);
+		--carrera-Ingeniería-en-Electrónica: rgba(51, 105, 64, 0.5);
+		--carrera-Licenciatura-en-Ciencias-Biológicas: rgba(62, 104, 55, 0.5);
+		--carrera-Licenciatura-en-Ciencias-Físicas: rgba(60, 96, 144, 0.5);
+		--carrera-Licenciatura-en-Ciencias-Químicas: rgba(143, 75, 56, 0.5);
+		--carrera-Licenciatura-en-Matemática: rgba(110, 82, 138, 0.5);
+		--carrera-Licenciatura-en-Sistemas-de-Información: rgba(47, 98, 140, 0.5);
+		--carrera-Licenciatura-en-Didáctica-de-la-Matemática: rgba(139, 74, 98, 0.5);
+		--carrera-Profesorado-en-Biología: rgba(62, 104, 55, 0.5);
+		--carrera-Profesorado-en-Ciencias-Químicas-y-del-Ambiente: rgba(142, 73, 88, 0.5);
+		--carrera-Profesorado-en-Física: rgba(0, 105, 107, 0.5);
+		--carrera-Profesorado-en-Matemática: rgba(76, 92, 146, 0.5);
+		--carrera-Profesorado-Universitario-en-Informática: rgba(27, 101, 133, 0.5);
 	}
 
 	[data-theme="dark"] {
@@ -201,14 +223,32 @@ const {title} = Astro.props
 		--md-sys-color-surface-container: rgb(30, 32, 33);
 		--md-sys-color-surface-container-high: rgb(41, 42, 44);
 		--md-sys-color-surface-container-highest: rgb(52, 53, 55);
-		--m3-elevation-1-box-shadow: 0rem 0.25rem 0.5rem 0rem rgba(0, 0, 0, 0.3), 0rem 0.25rem 0.75rem 0.25rem rgba(0, 0, 0, 0.15);
-		--m3-elevation-2-box-shadow: 0rem 0.25rem 0.5rem 0rem rgba(0, 0, 0, 0.3), 0rem 0.5rem 1.5rem 0.5rem rgba(0, 0, 0, 0.15);
-		--m3-elevation-3-box-shadow: 0rem 0.25rem 0.75rem 0rem rgba(0, 0, 0, 0.3), 0rem 1rem 2rem 0.75rem rgba(0, 0, 0, 0.15);
-		--m3-elevation-4-box-shadow: 0rem 0.5rem 0.75rem 0rem rgba(0, 0, 0, 0.3), 0rem 1.5rem 2.5rem 1rem rgba(0, 0, 0, 0.15);
+		--m3-elevation-1-box-shadow: 0rem 0.25rem 0.5rem 0rem rgba(0, 0, 0, 0.3),
+			0rem 0.25rem 0.75rem 0.25rem rgba(0, 0, 0, 0.15);
+		--m3-elevation-2-box-shadow: 0rem 0.25rem 0.5rem 0rem rgba(0, 0, 0, 0.3),
+			0rem 0.5rem 1.5rem 0.5rem rgba(0, 0, 0, 0.15);
+		--m3-elevation-3-box-shadow: 0rem 0.25rem 0.75rem 0rem rgba(0, 0, 0, 0.3),
+			0rem 1rem 2rem 0.75rem rgba(0, 0, 0, 0.15);
+		--m3-elevation-4-box-shadow: 0rem 0.5rem 0.75rem 0rem rgba(0, 0, 0, 0.3),
+			0rem 1.5rem 2.5rem 1rem rgba(0, 0, 0, 0.15);
 		--m3-elevation-5-box-shadow: 0rem 1rem 1rem 0rem rgba(0, 0, 0, 0.3), 0rem 2rem 3rem 1.5rem rgba(0, 0, 0, 0.15);
+		--carrera-Bioquímica: rgba(157, 212, 158, 0.5);
+		--carrera-Ingeniería-en-Agrimensura: rgba(255, 182, 139, 0.5);
+		--carrera-Ingeniería-Eléctrica: rgba(222, 197, 110, 0.5);
+		--carrera-Ingeniería-en-Electrónica: rgba(154, 212, 162, 0.5);
+		--carrera-Licenciatura-en-Ciencias-Biológicas: rgba(163, 211, 151, 0.5);
+		--carrera-Licenciatura-en-Ciencias-Físicas: rgba(165, 200, 255, 0.5);
+		--carrera-Licenciatura-en-Ciencias-Químicas: rgba(255, 181, 160, 0.5);
+		--carrera-Licenciatura-en-Matemática: rgba(219, 185, 249, 0.5);
+		--carrera-Licenciatura-en-Sistemas-de-Información: rgba(155, 203, 251, 0.5);
+		--carrera-Licenciatura-en-Didáctica-de-la-Matemática: rgba(255, 176, 202, 0.5);
+		--carrera-Profesorado-en-Biología: rgba(163, 211, 151, 0.5);
+		--carrera-Profesorado-en-Ciencias-Químicas-y-del-Ambiente: rgba(255, 178, 191, 0.5);
+		--carrera-Profesorado-en-Física: rgba(128, 212, 214, 0.5);
+		--carrera-Profesorado-en-Matemática: rgba(181, 196, 255, 0.5);
+		--carrera-Profesorado-Universitario-en-Informática: rgba(143, 206, 243, 0.5);
 	}
 
-	
 	.text-display-large {
 		@apply font-display-large-font-family text-display-large-font-size font-display-large-font-weight leading-display-large-line-height;
 		letter-spacing: var(--display-large-letter-spacing, -1px);
@@ -268,5 +308,3 @@ const {title} = Astro.props
 		letter-spacing: var(--body-small-letter-spacing, 0.4px);
 	}
 </style>
-
-
