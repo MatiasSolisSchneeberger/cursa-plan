@@ -1,7 +1,14 @@
 {
     "cSpell.words": [
+        "carrera",
+        "codigo",
+        "cuatri",
+        "Cursar",
+        "Estudio",
         "fontsource",
+        "materias",
         "poppins",
+        "Rendir",
         "typescale"
     ],
     "spellright.language": [
@@ -23,5 +30,7 @@
         "activityBar.background": "#1d2267",
         "titleBar.activeBackground": "#294590",
         "titleBar.activeForeground": "#fcfcfe"
-    }
+    },
+    "IDX.aI.enableInlineCompletion": true,
+    "IDX.aI.enableCodebaseIndexing": true
 }

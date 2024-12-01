@@ -1,0 +1,39 @@
+---
+import type { GetStaticPaths } from "astro";
+
+import { carreras } from "@data/carreras.json";
+
+import Layout from "@layouts/Layout.astro";
+import AnnoCarrera from "@components/AñoCarrera.astro"
+import HeaderCarrera from "@components/HeaderCarrera.astro";
+import TarjetaMateria from "@components/TarjetaMateria.astro";
+
+export const getStaticPaths: GetStaticPaths = () => {
+	return carreras.map(({ carrera }) => ({
+		params: { carrera },
+	}));
+};
+
+const { carrera } = Astro.params;
+
+// Buscar los datos específicos de la carrera
+const carreraData = carreras.find((c) => c.carrera === carrera);
+
+if (!carreraData) {
+	throw new Error(`Carrera no encontrada: ${carrera}`);
+}
+---
+<Layout title=`${carrera} | Plan de estudio`>
+	<!-- Titulo de Pagina -->
+	<HeaderCarrera carrera={carreraData.carrera} emoji={carreraData.emoji}/>
+	<!-- map de array de los años -->
+	{
+		carreraData.cursada.map(({año}) => {
+			return (
+				<AnnoCarrera año={año}>
+					<TarjetaMateria />
+				</AnnoCarrera>
+			)
+		})
+	}
+</Layout>

@@ -2,7 +2,10 @@
 import LogoPagina from "@components/LogoPagina.astro"
 import {carreras} from "@data/carreras.json"
 
-const NombreCarreras = carreras.map(({carrera}) => carrera.replace(/-/g, " "))
+const enlacesCarreras = carreras.map(({ carrera }) => ({
+	href: `/carreras/${carrera}`, // Enlace con guiones
+	nombre: carrera.replace(/-/g, " "), // Texto sin guiones
+}));
 ---
 
 <section
@@ -15,9 +18,9 @@ const NombreCarreras = carreras.map(({carrera}) => carrera.replace(/-/g, " "))
 			información desactualizada, no dudes en contactarme para corregirlo. ¡Tu ayuda es muy valiosa para mantener esta
 			página actualizada y útil para todos!
 		</p>
-		<figure class="flex flex-col gap-[5px] items-center justify-center shrink-0 w-[121px] relative">
+		<figure class="flex flex-col gap-1 items-center justify-center shrink-0 w-[121px] relative">
 			<img class="w-min h-min relative overflow-visible" src="/MiLogo.svg" />
-			<figcaption class="text-center text-xs font-bold relative self-stretch flex items-center justify-center">
+			<figcaption class="text-center text-label-small relative self-stretch flex items-center justify-center">
 				By MatiDevCode
 			</figcaption>
 		</figure>
@@ -26,8 +29,12 @@ const NombreCarreras = carreras.map(({carrera}) => carrera.replace(/-/g, " "))
 		<h2 class="text-left text-title-large relative self-stretch flex items-center justify-start">Carreras:</h2>
 		<div class="flex flex-col gap-2.5 items-start justify-start shrink-0 relative">
 			{
-				NombreCarreras.map((carrera) => (
-					<p class="text-left text-title-small relative flex items-center justify-start">{carrera}</p>
+				enlacesCarreras.map(({ href, nombre }) => (
+					<a 
+						href={href}
+						class="text-left text-title-small relative flex items-center justify-start">
+							{nombre}
+					</a>
 				))
 			}
 		</div>

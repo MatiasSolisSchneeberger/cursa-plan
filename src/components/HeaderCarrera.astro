@@ -20,11 +20,11 @@ const NombreCarrera = carrera.replace(/-/g, " ");
     <md-filled-icon-button href="/">
         <IconArrowLeft size={24}/>
     </md-filled-icon-button>
-    <h2 class="text-on-background text-headline-small relative flex-1 flex items-center justify-center text-center">
+    <h2 transition:name=`nombre-${carrera}` class="text-on-background text-headline-small relative flex-1 flex items-center justify-center text-center">
         {NombreCarrera}
     </h2>
     <div class="bg-surface-variant rounded-full p-3 flex flex-row gap-2.5 items-center justify-center shrink-0 w-10 h-10 relative">
-        <div class="text-on-primary text-center text-title-medium relative flex items-center justify-center">
+        <div transition:name=`emoji-${carrera}` class="text-on-primary text-center text-title-medium relative flex items-center justify-center">
             {emoji}
         </div>
     </div>

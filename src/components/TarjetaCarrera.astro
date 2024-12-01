@@ -19,12 +19,12 @@ const nombreCarrera = carrera.replace(/-/g, ' ');
 	style={{
 		background: `linear-gradient(to right, var(--carrera-${carrera}) 25%, transparent)`,}}>
 	<div class="bg-surface-variant rounded-full p-3 flex flex-row gap-2.5 items-center justify-center shrink-0 w-10 h-10 relative">
-		<div class="text-on-primary text-center text-title-large relative flex items-center justify-center">
+		<div transition:name=`emoji-${carrera}` class="text-on-primary text-center text-title-large relative flex items-center justify-center">
 			{emoji}
 		</div>
 	</div>
 
-	<div class="text-on-background text-center text-title-large relative self-stretch flex items-center justify-center w-full">
+	<div transition:name=`nombre-${carrera}` class="text-on-background text-center text-title-large relative self-stretch flex items-center justify-center w-full">
 		{nombreCarrera}
 	</div>
 </div>

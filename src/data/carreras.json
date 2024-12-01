@@ -3,77 +3,392 @@
 		{
 			"carrera": "Bioquímica",
 			"emoji": "🧫",
-			"color": "71, 103, 48"
+			"cursada":[
+				{
+					"año": 1,
+					"cuatri": 1,
+					"materias": [
+						{
+							"materia": "materia I",
+							"codigo": "",
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": [
+								{
+									"dia": 0,
+									"mes": 0,
+									"año": 0
+								}
+							]
+						}
+					]
+				}
+			]
 		},
 		{
 			"carrera": "Ingeniería-en-Agrimensura",
 			"emoji": "📏",
-			"color": "140, 79, 39"
+			"cursada":[
+				{
+					"año": 1,
+					"cuatri": 1,
+					"materias": [
+						{
+							"materia": "materia I",
+							"codigo": "",
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": [
+								{
+									"dia": 0,
+									"mes": 0,
+									"año": 0
+								}
+							]
+						}
+					]
+				}
+			]
 		},
 		{
 			"carrera": "Ingeniería-Eléctrica",
 			"emoji": "⚡",
-			"color": "111, 93, 14"
+			"cursada":[
+				{
+					"año": 1,
+					"cuatri": 1,
+					"materias": [
+						{
+							"materia": "materia I",
+							"codigo": "",
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": [
+								{
+									"dia": 0,
+									"mes": 0,
+									"año": 0
+								}
+							]
+						}
+					]
+				}
+			]
 		},
 		{
 			"carrera": "Ingeniería-en-Electrónica",
 			"emoji": "🤖",
-			"color": "51, 105, 64"
+			"cursada":[
+				{
+					"año": 1,
+					"cuatri": 1,
+					"materias": [
+						{
+							"materia": "materia I",
+							"codigo": "",
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": [
+								{
+									"dia": 0,
+									"mes": 0,
+									"año": 0
+								}
+							]
+						}
+					]
+				}
+			]
 		},
 		{
 			"carrera": "Licenciatura-en-Ciencias-Biológicas",
 			"emoji": "🌱",
-			"color": "62, 104, 55"
+			"cursada":[
+				{
+					"año": 1,
+					"cuatri": 1,
+					"materias": [
+						{
+							"materia": "materia I",
+							"codigo": "",
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": [
+								{
+									"dia": 0,
+									"mes": 0,
+									"año": 0
+								}
+							]
+						}
+					]
+				}
+			]
 		},
 		{
 			"carrera": "Licenciatura-en-Ciencias-Físicas",
 			"emoji": "🌌",
-			"color": "60, 96, 144"
+			"cursada":[
+				{
+					"año": 1,
+					"cuatri": 1,
+					"materias": [
+						{
+							"materia": "materia I",
+							"codigo": "",
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": [
+								{
+									"dia": 0,
+									"mes": 0,
+									"año": 0
+								}
+							]
+						}
+					]
+				}
+			]
 		},
 		{
 			"carrera": "Licenciatura-en-Ciencias-Químicas",
 			"emoji": "🧪",
-			"color": "143, 75, 56"
+			"cursada":[
+				{
+					"año": 1,
+					"cuatri": 1,
+					"materias": [
+						{
+							"materia": "materia I",
+							"codigo": "",
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": [
+								{
+									"dia": 0,
+									"mes": 0,
+									"año": 0
+								}
+							]
+						}
+					]
+				}
+			]
 		},
 		{
 			"carrera": "Licenciatura-en-Matemática",
 			"emoji": "➗",
-			"color": "110, 82, 138"
+			"cursada":[
+				{
+					"año": 1,
+					"cuatri": 1,
+					"materias": [
+						{
+							"materia": "materia I",
+							"codigo": "",
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": [
+								{
+									"dia": 0,
+									"mes": 0,
+									"año": 0
+								}
+							]
+						}
+					]
+				}
+			]
 		},
 		{
 			"carrera": "Licenciatura-en-Sistemas-de-Información",
 			"emoji": "💻",
-			"color": "46, 98, 140"
+			"cursada":[
+				{
+					"año": 1,
+					"cuatri": 1,
+					"materias": [
+						{
+							"materia": "materia I",
+							"codigo": "",
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": [
+								{
+									"dia": 0,
+									"mes": 0,
+									"año": 0
+								}
+							]
+						}
+					]
+				}
+			]
 		},
 		{
 			"carrera": "Licenciatura-en-Didáctica-de-la-Matemática",
 			"emoji": "📚",
-			"color": "139, 74, 98"
+			"cursada":[
+				{
+					"año": 1,
+					"cuatri": 1,
+					"materias": [
+						{
+							"materia": "materia I",
+							"codigo": "",
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": [
+								{
+									"dia": 0,
+									"mes": 0,
+									"año": 0
+								}
+							]
+						}
+					]
+				}
+			]
 		},
 		{
 			"carrera": "Profesorado-en-Biología",
 			"emoji": "🦋",
-			"color": "62, 104, 55"
+			"cursada":[
+				{
+					"año": 1,
+					"cuatri": 1,
+					"materias": [
+						{
+							"materia": "materia I",
+							"codigo": "",
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": [
+								{
+									"dia": 0,
+									"mes": 0,
+									"año": 0
+								}
+							]
+						}
+					]
+				}
+			]
 		},
 		{
 			"carrera": "Profesorado-en-Ciencias-Químicas-y-del-Ambiente",
 			"emoji": "🧬",
-			"color": "144, 75, 61"
+			"cursada":[
+				{
+					"año": 1,
+					"cuatri": 1,
+					"materias": [
+						{
+							"materia": "materia I",
+							"codigo": "",
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": [
+								{
+									"dia": 0,
+									"mes": 0,
+									"año": 0
+								}
+							]
+						}
+					]
+				}
+			]
 		},
 		{
 			"carrera": "Profesorado-en-Física",
 			"emoji": "🔭",
-			"color": "0, 105, 107"
+			"cursada":[
+				{
+					"año": 1,
+					"cuatri": 1,
+					"materias": [
+						{
+							"materia": "materia I",
+							"codigo": "",
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": [
+								{
+									"dia": 0,
+									"mes": 0,
+									"año": 0
+								}
+							]
+						}
+					]
+				}
+			]
 		},
 		{
 			"carrera": "Profesorado-en-Matemática",
 			"emoji": "📐",
-			"color": "76, 92, 146"
+			"cursada":[
+				{
+					"año": 1,
+					"cuatri": 1,
+					"materias": [
+						{
+							"materia": "materia I",
+							"codigo": "",
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": [
+								{
+									"dia": 0,
+									"mes": 0,
+									"año": 0
+								}
+							]
+						}
+					]
+				}
+			]
 		},
 		{
 			"carrera": "Profesorado-Universitario-en-Informática",
 			"emoji": "🖱️",
-			"color": "28, 101, 133"
+			"cursada":[
+				{
+					"año": 1,
+					"cuatri": 1,
+					"materias": [
+						{
+							"materia": "materia I",
+							"codigo": "",
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": [
+								{
+									"dia": 0,
+									"mes": 0,
+									"año": 0
+								}
+							]
+						}
+					]
+				}
+			]
 		}
 	]
 }
