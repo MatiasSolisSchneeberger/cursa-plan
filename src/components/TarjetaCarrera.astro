@@ -10,10 +10,14 @@ const nombreCarrera = carrera.replace(/-/g, ' ');
 
 ---
 
-<div
+<a
+	transition:name=`header-${carrera}`
+	href=`/carreras/${carrera}`
 	class:list={[
-		`rounded-3xl shadow-1 hover:shadow-5 bg-gradient-to-r from-carrera-${carrera} from-25% hover:scale-105 border-solid border-outline border p-3 flex flex-row sm:flex-col items-start justify-between flex-1 h-min sm:h-56 relative overflow-hidden transition-all duration-300`,
-	]}>
+		`rounded-3xl shadow-1 hover:shadow-3 bg-gradient-to-r from-carrera-${carrera} from-25% hover:scale-105 border-solid border-outline border p-3 flex flex-row sm:flex-col items-start justify-between flex-1 h-min sm:h-56 relative overflow-hidden transition-all duration-300`,
+	]}
+	style={{
+		background: `linear-gradient(to right, var(--carrera-${carrera}) 25%, transparent)`,}}>
 	<div class="bg-surface-variant rounded-full p-3 flex flex-row gap-2.5 items-center justify-center shrink-0 w-10 h-10 relative">
 		<div class="text-on-primary text-center text-title-large relative flex items-center justify-center">
 			{emoji}
