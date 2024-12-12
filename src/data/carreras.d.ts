@@ -10,21 +10,23 @@ interface carrera {
 
 interface cursada {
     año: number;
-    cuatri: number;
     materias: Array<materia>;
 }
 
 interface materia {
     materia: string;
     codigo: string;
-    paraCursar: Array<string>;
-    paraRendir: Array<string>;
+    paraCursar: Array<condicion> | null;
+    paraRendir: Array<condicion> | null;
     planDeEstudio: string;
-    mesas: Array<mesa>;
+    mesas: Array<mesa> | null;
 }
 
-interface mesa{
-    dia: number;
-    mes: number;
-    año: number;
+interface condicion{
+	mat: string
+	cond: "R" | "A" | null,
+}
+
+interface mesa {
+    fecha: Date;
 }

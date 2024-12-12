@@ -4,7 +4,7 @@ import type { GetStaticPaths } from "astro";
 import { carreras } from "@data/carreras.json";
 
 import Layout from "@layouts/Layout.astro";
-import AnnoCarrera from "@components/AñoCarrera.astro"
+import AñoCarrera from "@components/AñoCarrera.astro"
 import HeaderCarrera from "@components/HeaderCarrera.astro";
 import TarjetaMateria from "@components/TarjetaMateria.astro";
 
@@ -22,17 +22,43 @@ const carreraData = carreras.find((c) => c.carrera === carrera);
 if (!carreraData) {
 	throw new Error(`Carrera no encontrada: ${carrera}`);
 }
+
 ---
 <Layout title=`${carrera} | Plan de estudio`>
 	<!-- Titulo de Pagina -->
 	<HeaderCarrera carrera={carreraData.carrera} emoji={carreraData.emoji}/>
+	<div class="flex flex-wrap gap-3 justify-center">
+		{
+			carreraData.cursada.map(({año}) => {
+				
+				function obtenerSufijo(p_año) {
+					if (p_año === 1) return "ro"
+					if (p_año === 2) return "do"
+					if (p_año === 3) return "ro"
+					return "to" // Para 4 o más
+				}
+				
+				const sufijo = obtenerSufijo(año)
+
+				return (
+					<md-filled-button class="w-min" href={`#${año}`}>{año}{sufijo} Año</md-filled-button>
+				)
+			})
+		}
+	</div>
 	<!-- map de array de los años -->
 	{
-		carreraData.cursada.map(({año}) => {
+		carreraData.cursada.map(({año, materias}) => {
 			return (
-				<AnnoCarrera año={año}>
-					<TarjetaMateria />
-				</AnnoCarrera>
+				<AñoCarrera año={año}>
+					{
+						materias.map(({materia, codigo, paraCursar, paraRendir, planDeEstudio, mesas,}) => {
+							return (
+								<TarjetaMateria materia = {materia} codigo = {codigo} paraCursar = {paraCursar} paraRendir = {paraRendir} planDeEstudio = {planDeEstudio} mesas = {mesas}/>
+							)
+						})
+					}
+				</AñoCarrera>
 			)
 		})
 	}

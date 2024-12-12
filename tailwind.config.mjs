@@ -211,7 +211,9 @@ export default {
 				4: "var(--m3-elevation-4-box-shadow)",
 				5: "var(--m3-elevation-5-box-shadow)",
 			},
+			darkMode: 'class',
 		},
 	},
 	plugins: [],
+	darkMode: 'selector',
 }

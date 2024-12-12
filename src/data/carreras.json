@@ -3,10 +3,261 @@
 		{
 			"carrera": "Bioquímica",
 			"emoji": "🧫",
-			"cursada":[
+			"cursada": [
 				{
 					"año": 1,
-					"cuatri": 1,
+					"materias": [
+						{
+							"materia": "Álgebra y Geometría Analítica",
+							"codigo": 101,
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": [
+								{
+									"fecha": "2024-12-12"
+								}
+							]
+						},
+						{
+							"materia": "Química General",
+							"codigo": 102,
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Cálculo Diferencial e Integral",
+							"codigo": 103,
+							"paraCursar": [
+								{
+									"mat": "Álgebra y Geometría Analítica",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Álgebra y Geometría Analítica",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Química Inorgánica",
+							"codigo": 104,
+							"paraCursar": [
+								{
+									"mat": "Química General",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Química General",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Biología General y Celular",
+							"codigo": 105,
+							"paraCursar": [
+								{
+									"mat": "Química General",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Química General",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						}
+					]
+				},
+				{
+					"año": 2,
+					"materias": [
+						{
+							"materia": "Mecánica, Calor y Termodinámica",
+							"codigo": "201",
+							"paraCursar": [
+								{
+									"mat": "Cálculo Diferencial e Integral",
+									"cond": "R"
+								},
+								{
+									"mat": "Química Inorgánica",
+									"cond": "R"
+								},
+								{
+									"mat": "Álgebra y Geometría Analítica",
+									"cond": "A"
+								},
+								{
+									"mat": "Química General",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Cálculo Diferencial e Integral",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Inorgánica",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Química Orgánica I",
+							"codigo": "202",
+							"paraCursar": [
+								{
+									"mat": "Química Inorgánica",
+									"cond": "R"
+								},
+								{
+									"mat": "Álgebra y Geometría Analítica",
+									"cond": "A"
+								},
+								{
+									"mat": "Química General",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Química Inorgánica",
+									"cond": "A"
+								},
+								{
+									"mat": "Álgebra y Geometría Analítica",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Morfología",
+							"codigo": "203",
+							"paraCursar": [
+								{
+									"mat": "Biología General y Celular",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Biología General y Celular",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Electricidad, Magnetismo, Óptica y Sonido",
+							"codigo": "204",
+							"paraCursar": [
+								{
+									"mat": "Química Inorgánica",
+									"cond": "R"
+								},
+								{
+									"mat": "Cálculo Diferencial e Integral",
+									"cond": "R"
+								},
+								{
+									"mat": "Mecánica, Calor y Termodinámica",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Química Inorgánica",
+									"cond": "A"
+								},
+								{
+									"mat": "Mecánica, Calor y Termodinámica",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Química Orgánica II",
+							"codigo": "205",
+							"paraCursar": [
+								{
+									"mat": "Química Orgánica I",
+									"cond": "A"
+								},
+								{
+									"mat": "Biología General y Celular",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Química Orgánica I",
+									"cond": "A"
+								},
+								{
+									"mat": "Biología General y Celular",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Química Analítica",
+							"codigo": "206",
+							"paraCursar": [
+								{
+									"mat": "Química Inorgánica",
+									"cond": "A"
+								},
+								{
+									"mat": "Álgebra y Geometría Analítica",
+									"cond": "A"
+								},
+								{
+									"mat": "Cálculo Diferencial e Integral",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Química Inorgánica",
+									"cond": "A"
+								},
+								{
+									"mat": "Cálculo Diferencial e Integral",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						}
+					]
+				},
+				{
+					"año": 3,
 					"materias": [
 						{
 							"materia": "materia I",
@@ -14,13 +265,33 @@
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",
-							"mesas": [
-								{
-									"dia": 0,
-									"mes": 0,
-									"año": 0
-								}
-							]
+							"mesas": []
+						}
+					]
+				},
+				{
+					"año": 4,
+					"materias": [
+						{
+							"materia": "materia I",
+							"codigo": "",
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						}
+					]
+				},
+				{
+					"año": 5,
+					"materias": [
+						{
+							"materia": "materia I",
+							"codigo": "",
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
 						}
 					]
 				}
@@ -29,10 +300,9 @@
 		{
 			"carrera": "Ingeniería-en-Agrimensura",
 			"emoji": "📏",
-			"cursada":[
+			"cursada": [
 				{
 					"año": 1,
-					"cuatri": 1,
 					"materias": [
 						{
 							"materia": "materia I",
@@ -40,13 +310,7 @@
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",
-							"mesas": [
-								{
-									"dia": 0,
-									"mes": 0,
-									"año": 0
-								}
-							]
+							"mesas": []
 						}
 					]
 				}
@@ -55,10 +319,9 @@
 		{
 			"carrera": "Ingeniería-Eléctrica",
 			"emoji": "⚡",
-			"cursada":[
+			"cursada": [
 				{
 					"año": 1,
-					"cuatri": 1,
 					"materias": [
 						{
 							"materia": "materia I",
@@ -66,13 +329,7 @@
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",
-							"mesas": [
-								{
-									"dia": 0,
-									"mes": 0,
-									"año": 0
-								}
-							]
+							"mesas": []
 						}
 					]
 				}
@@ -81,10 +338,9 @@
 		{
 			"carrera": "Ingeniería-en-Electrónica",
 			"emoji": "🤖",
-			"cursada":[
+			"cursada": [
 				{
 					"año": 1,
-					"cuatri": 1,
 					"materias": [
 						{
 							"materia": "materia I",
@@ -92,13 +348,7 @@
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",
-							"mesas": [
-								{
-									"dia": 0,
-									"mes": 0,
-									"año": 0
-								}
-							]
+							"mesas": []
 						}
 					]
 				}
@@ -107,10 +357,9 @@
 		{
 			"carrera": "Licenciatura-en-Ciencias-Biológicas",
 			"emoji": "🌱",
-			"cursada":[
+			"cursada": [
 				{
 					"año": 1,
-					"cuatri": 1,
 					"materias": [
 						{
 							"materia": "materia I",
@@ -118,13 +367,7 @@
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",
-							"mesas": [
-								{
-									"dia": 0,
-									"mes": 0,
-									"año": 0
-								}
-							]
+							"mesas": []
 						}
 					]
 				}
@@ -133,10 +376,9 @@
 		{
 			"carrera": "Licenciatura-en-Ciencias-Físicas",
 			"emoji": "🌌",
-			"cursada":[
+			"cursada": [
 				{
 					"año": 1,
-					"cuatri": 1,
 					"materias": [
 						{
 							"materia": "materia I",
@@ -144,13 +386,7 @@
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",
-							"mesas": [
-								{
-									"dia": 0,
-									"mes": 0,
-									"año": 0
-								}
-							]
+							"mesas": []
 						}
 					]
 				}
@@ -159,10 +395,9 @@
 		{
 			"carrera": "Licenciatura-en-Ciencias-Químicas",
 			"emoji": "🧪",
-			"cursada":[
+			"cursada": [
 				{
 					"año": 1,
-					"cuatri": 1,
 					"materias": [
 						{
 							"materia": "materia I",
@@ -170,13 +405,7 @@
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",
-							"mesas": [
-								{
-									"dia": 0,
-									"mes": 0,
-									"año": 0
-								}
-							]
+							"mesas": []
 						}
 					]
 				}
@@ -185,10 +414,9 @@
 		{
 			"carrera": "Licenciatura-en-Matemática",
 			"emoji": "➗",
-			"cursada":[
+			"cursada": [
 				{
 					"año": 1,
-					"cuatri": 1,
 					"materias": [
 						{
 							"materia": "materia I",
@@ -196,13 +424,7 @@
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",
-							"mesas": [
-								{
-									"dia": 0,
-									"mes": 0,
-									"año": 0
-								}
-							]
+							"mesas": []
 						}
 					]
 				}
@@ -211,10 +433,9 @@
 		{
 			"carrera": "Licenciatura-en-Sistemas-de-Información",
 			"emoji": "💻",
-			"cursada":[
+			"cursada": [
 				{
 					"año": 1,
-					"cuatri": 1,
 					"materias": [
 						{
 							"materia": "materia I",
@@ -222,13 +443,7 @@
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",
-							"mesas": [
-								{
-									"dia": 0,
-									"mes": 0,
-									"año": 0
-								}
-							]
+							"mesas": []
 						}
 					]
 				}
@@ -237,10 +452,9 @@
 		{
 			"carrera": "Licenciatura-en-Didáctica-de-la-Matemática",
 			"emoji": "📚",
-			"cursada":[
+			"cursada": [
 				{
 					"año": 1,
-					"cuatri": 1,
 					"materias": [
 						{
 							"materia": "materia I",
@@ -248,13 +462,7 @@
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",
-							"mesas": [
-								{
-									"dia": 0,
-									"mes": 0,
-									"año": 0
-								}
-							]
+							"mesas": []
 						}
 					]
 				}
@@ -263,10 +471,9 @@
 		{
 			"carrera": "Profesorado-en-Biología",
 			"emoji": "🦋",
-			"cursada":[
+			"cursada": [
 				{
 					"año": 1,
-					"cuatri": 1,
 					"materias": [
 						{
 							"materia": "materia I",
@@ -274,13 +481,7 @@
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",
-							"mesas": [
-								{
-									"dia": 0,
-									"mes": 0,
-									"año": 0
-								}
-							]
+							"mesas": []
 						}
 					]
 				}
@@ -289,10 +490,9 @@
 		{
 			"carrera": "Profesorado-en-Ciencias-Químicas-y-del-Ambiente",
 			"emoji": "🧬",
-			"cursada":[
+			"cursada": [
 				{
 					"año": 1,
-					"cuatri": 1,
 					"materias": [
 						{
 							"materia": "materia I",
@@ -300,13 +500,7 @@
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",
-							"mesas": [
-								{
-									"dia": 0,
-									"mes": 0,
-									"año": 0
-								}
-							]
+							"mesas": []
 						}
 					]
 				}
@@ -315,10 +509,9 @@
 		{
 			"carrera": "Profesorado-en-Física",
 			"emoji": "🔭",
-			"cursada":[
+			"cursada": [
 				{
 					"año": 1,
-					"cuatri": 1,
 					"materias": [
 						{
 							"materia": "materia I",
@@ -326,13 +519,7 @@
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",
-							"mesas": [
-								{
-									"dia": 0,
-									"mes": 0,
-									"año": 0
-								}
-							]
+							"mesas": []
 						}
 					]
 				}
@@ -341,10 +528,9 @@
 		{
 			"carrera": "Profesorado-en-Matemática",
 			"emoji": "📐",
-			"cursada":[
+			"cursada": [
 				{
 					"año": 1,
-					"cuatri": 1,
 					"materias": [
 						{
 							"materia": "materia I",
@@ -352,13 +538,7 @@
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",
-							"mesas": [
-								{
-									"dia": 0,
-									"mes": 0,
-									"año": 0
-								}
-							]
+							"mesas": []
 						}
 					]
 				}
@@ -367,10 +547,9 @@
 		{
 			"carrera": "Profesorado-Universitario-en-Informática",
 			"emoji": "🖱️",
-			"cursada":[
+			"cursada": [
 				{
 					"año": 1,
-					"cuatri": 1,
 					"materias": [
 						{
 							"materia": "materia I",
@@ -378,13 +557,7 @@
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",
-							"mesas": [
-								{
-									"dia": 0,
-									"mes": 0,
-									"año": 0
-								}
-							]
+							"mesas": []
 						}
 					]
 				}

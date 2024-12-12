@@ -1,47 +1,20 @@
 ---
+import {Icon} from "astro-icon/components"
 
 ---
 
 <md-fab id="themeToggle" class="fixed bottom-2 left-2 z-50" variant="primary">
-	<svg
-		slot="icon"
-		class="block dark:hidden"
-		xmlns="http://www.w3.org/2000/svg"
-		width="22"
-		height="22"
-		viewBox="0 0 22 22"
-		fill="none"
-		stroke="currentColor"
-		stroke-width="2"
-		stroke-linecap="round"
-		stroke-linejoin="round">
-		<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-		<path d="M12 12m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"></path>
-		<path d="M3 12h1m8 -9v1m8 8h1m-9 8v1m-6.4 -15.4l.7 .7m12.1 -.7l-.7 .7m0 11.4l.7 .7m-12.1 -.7l-.7 .7"></path>
-	</svg>
-	<svg
-		class="hidden dark:block"
-		slot="icon"
-		xmlns="http://www.w3.org/2000/svg"
-		width="22"
-		height="22"
-		viewBox="0 0 22 22"
-		fill="none"
-		stroke="currentColor"
-		stroke-width="2"
-		stroke-linecap="round"
-		stroke-linejoin="round"
-		class="icon icon-tabler icons-tabler-outline icon-tabler-moon">
-		<path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-		<path d="M12 3c.132 0 .263 0 .393 0a7.5 7.5 0 0 0 7.92 12.446a9 9 0 1 1 -8.313 -12.454z"></path>
-	</svg>
+	
+	<Icon slot="icon" class="block dark:hidden" size="22" name="brightness-up" />
+	<Icon slot="icon" class="hidden dark:block" size="22" name="moon" />
+
 </md-fab>
 
 <!-- script -->
 <script>
-/* 	console.log("Script de cambio de tema cargado"); */
+	/* 	console.log("Script de cambio de tema cargado"); */
 
-	document.addEventListener("DOMContentLoaded", () => {
+	document.addEventListener("astro:page-load", () => {
 		const theme = (() => {
 			if (typeof localStorage !== "undefined" && localStorage.getItem("picoPreferredColorScheme")) {
 				return localStorage.getItem("picoPreferredColorScheme")
@@ -52,9 +25,13 @@
 			return "light"
 		})()
 
-		// Aplicar el tema a toda la página
-		document.documentElement.setAttribute("data-theme", theme)
-		document.documentElement.classList.toggle("dark", theme === "dark")
+		if (theme === "light") {
+			document.documentElement.setAttribute("data-theme", "light")
+			document.documentElement.classList.remove("dark")
+		} else {
+			document.documentElement.setAttribute("data-theme", "dark")
+			document.documentElement.classList.add("dark")
+		}
 
 		window.localStorage.setItem("picoPreferredColorScheme", theme as string)
 
@@ -64,8 +41,11 @@
 
 			const isDark = element.classList.contains("dark")
 
-			// Actualizar el atributo data-theme
-			element.setAttribute("data-theme", isDark ? "dark" : "light")
+			if (isDark) {
+				element.setAttribute("data-theme", "dark")
+			} else {
+				element.setAttribute("data-theme", "light")
+			}
 
 			localStorage.setItem("picoPreferredColorScheme", isDark ? "dark" : "light")
 		}
@@ -74,8 +54,12 @@
 	})
 
 	document.addEventListener("astro:after-swap", () => {
-		const savedTheme = localStorage.getItem("picoPreferredColorScheme") || "light";
-		document.documentElement.setAttribute("data-theme", savedTheme)
-		document.documentElement.classList.toggle("dark", savedTheme === "dark")
+		if (localStorage.getItem("picoPreferredColorScheme") === "dark") {
+			document.documentElement.setAttribute("data-theme", "dark")
+			document.documentElement.classList.add("dark")
+		} else {
+			document.documentElement.setAttribute("data-theme", "light")
+			document.documentElement.classList.remove("dark")
+		}
 	})
 </script>

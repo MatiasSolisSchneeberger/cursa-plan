@@ -1,29 +1,29 @@
 ---
-import { IconChevronDown, IconChevronUp } from "@tabler/icons-react";
 interface Props {
-  año: number;
+	año: number
 }
 
-const { año } = Astro.props;
+const {año} = Astro.props
 
 function obtenerSufijo(año) {
-  if (año === 1) return "ro";
-  if (año === 2) return "do";
-  if (año === 3) return "ro";
-  return "to"; // Para 4 o más
+	if (año === 1) return "ro"
+	if (año === 2) return "do"
+	if (año === 3) return "ro"
+	return "to" // Para 4 o más
 }
 
-const sufijo = obtenerSufijo(año);
+const sufijo = obtenerSufijo(año)
 ---
 
-<section class="bg-primary-fixed-dim rounded-[36px] p-3 flex flex-col gap-2.5 items-center justify-center self-stretch shrink-0 relative overflow-hidden">
-	<header class="flex flex-row items-center justify-between self-stretch shrink-0 relative">
-		<h3 class="text-headline-medium text-on-primary text-center w-full" >{año}<span>{sufijo}</span></h3>
-
-		<md-filled-icon-button toggle class="item-center flex justify-center conten-center">
-			<IconChevronDown size={24}/>
-			<IconChevronUp slot="selected" size={24} />
-		</md-filled-icon-button>
-	</header>
-	<slot/>
+<section
+	id=`${año}`
+	class="flex flex-col gap-2.5 items-center justify-center self-stretch shrink-0 relative overflow-hidden">
+	<!-- encabezado año -->
+		<h3 class="text-headline-medium text-on-background text-center w-full">
+			{año}<span>{sufijo}</span> Año
+		</h3>
+	<div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+		<!-- Contenido del slot -->
+		<slot />
+	</div>
 </section>
