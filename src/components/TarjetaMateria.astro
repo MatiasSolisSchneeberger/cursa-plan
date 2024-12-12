@@ -24,9 +24,9 @@ const baseURL = "https://www.google.com/calendar/render?action=TEMPLATE";
 ---
 
 <article
-	class="bg-surface-variant w-full rounded-[32px] border-solid border-outline border p-2 flex flex-row gap-2 items-center justify-start flex-1 relative overflow-hidden">
+	class="bg-surface-variant w-full rounded-[32px] border-solid border-outline border p-2 flex flex-col md:flex-row gap-2 items-center justify-start flex-1 relative overflow-hidden">
 	<!-- Info de la materia -->
-	<div class="flex flex-col w-full sm:w-1/2 gap-2.5 items-center justify-center flex-1 relative">
+	<div class="flex flex-col w-full md:w-1/2 gap-2.5 items-center justify-center flex-1 relative">
 		<!-- Nombre de la Materia -->
 		<div
 			class="bg-primary rounded-3xl p-2 flex flex-col gap-1.5 items-center justify-start self-stretch shrink-0 relative overflow-hidden shadow-1">
@@ -107,7 +107,7 @@ const baseURL = "https://www.google.com/calendar/render?action=TEMPLATE";
 	<!-- Requisitos -->
 	{
 		(paraCursar.length > 0 || paraRendir.length > 0) && (
-			<div class="flex w-full sm:w-1/2 flex-col gap-2.5 items-start justify-start flex-1 relative">
+			<div class="flex w-full md:w-1/2 flex-col gap-2.5 items-start justify-start flex-1 relative">
 				<div class="bg-secondary-fixed rounded-3xl flex flex-col gap-0 items-start justify-start self-stretch shrink-0 relative overflow-hidden shadow-1">
 					<header class="bg-secondary pt-2.5 pr-6 pb-2.5 pl-6 flex flex-row gap-2.5 items-center justify-center self-stretch shrink-0 relative overflow-hidden">
 						<div class="text-on-primary text-center text-title-medium relative flex-1 flex items-center justify-center">
