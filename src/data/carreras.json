@@ -260,10 +260,234 @@
 					"año": 3,
 					"materias": [
 						{
-							"materia": "materia I",
-							"codigo": "",
-							"paraCursar": [],
-							"paraRendir": [],
+							"materia": "Química Biológica I",
+							"codigo": "301",
+							"paraCursar": [
+								{
+									"mat": "Química Orgánica I",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Orgánica II",
+									"cond": "R"
+								},
+								{
+									"mat": "Mecánica, Calor y Termodinámica",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Analítica",
+									"cond": "A"
+								},
+								{
+									"mat": "Prueba de Traducción de Inglés",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Química Orgánica II",
+									"cond": "A"
+								},
+								{
+									"mat": "Mecánica, Calor y Termodinámica",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Analítica",
+									"cond": "A"
+								},
+								{
+									"mat": "Prueba de Traducción de Inglés",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Química Física Biológica",
+							"codigo": "302",
+							"paraCursar": [
+								{
+									"mat": "Mecánica, Calor y Termodinámica",
+									"cond": "A"
+								},
+								{
+									"mat": "Electricidad, Magnetismo, Óptica y Sonido",
+									"cond": "R"
+								},
+								{
+									"mat": "Química Orgánica I",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Orgánica II",
+									"cond": "R"
+								},
+								{
+									"mat": "Química Analítica",
+									"cond": "R"
+								},
+								{
+									"mat": "Prueba de Traducción de Inglés",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Electricidad, Magnetismo, Óptica y Sonido",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Orgánica II",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Analítica",
+									"cond": "A"
+								},
+								{
+									"mat": "Prueba de Traducción de Inglés",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Bioestadística",
+							"codigo": "303",
+							"paraCursar": [
+								{
+									"mat": "Cálculo Diferencial e Integral",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Analítica",
+									"cond": "R"
+								},
+								{
+									"mat": "Prueba de Traducción de Inglés",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Cálculo Diferencial e Integral",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Analítica",
+									"cond": "A"
+								},
+								{
+									"mat": "Prueba de Traducción de Inglés",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Química Biológica II",
+							"codigo": "304",
+							"paraCursar": [
+								{
+									"mat": "Química Física Biológica",
+									"cond": "R"
+								},
+								{
+									"mat": "Química Biológica I",
+									"cond": "R"
+								},
+								{
+									"mat": "Química Orgánica II",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Química Física Biológica",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Biológica I",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Genética y Biología Molecular",
+							"codigo": "305",
+							"paraCursar": [
+								{
+									"mat": "Química Orgánica II",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Biológica I",
+									"cond": "R"
+								},
+								{
+									"mat": "Química Física Biológica",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Química Orgánica II",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Biológica I",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Física Biológica",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Química Analítica Instrumental",
+							"codigo": "306",
+							"paraCursar": [
+								{
+									"mat": "Química Analítica",
+									"cond": "A"
+								},
+								{
+									"mat": "Electricidad, Magnetismo, Óptica y Sonido",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Orgánica II",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Física Biológica",
+									"cond": "R"
+								},
+								{
+									"mat": "Bioestadística",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Química Física Biológica",
+									"cond": "A"
+								},
+								{
+									"mat": "Bioestadística",
+									"cond": "A"
+								}
+							],
 							"planDeEstudio": "",
 							"mesas": []
 						}

@@ -111,10 +111,10 @@ export default {
 				"title-large-size": "22px",
 				"title-medium-size": "16px",
 				"title-small-size": "14px",
+
 				"label-large-size": "14px",
 				"label-medium-size": "12px",
 				"label-small-size": "11px",
-
 				"label-large-font-size": "14px",
 				"label-medium-font-size": "12px",
 				"label-small-font-size": "11px",
