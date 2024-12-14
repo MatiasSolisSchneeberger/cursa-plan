@@ -497,10 +497,306 @@
 					"año": 4,
 					"materias": [
 						{
-							"materia": "materia I",
-							"codigo": "",
-							"paraCursar": [],
-							"paraRendir": [],
+							"materia": " Virología Clínica",
+							"codigo": "401",
+							"paraCursar": [
+								{
+									"mat": "Química Biológica I",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Biológica II",
+									"cond": "R"
+								},
+								{
+									"mat": "Genética y Biología Molecula",
+									"cond": "R"
+								},
+								{
+									"mat": "Bioestadística",
+									"cond": "A"
+								},
+								{
+									"mat": "Prueba de Manejo de Software",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Química Biológica II",
+									"cond": "A"
+								},
+								{
+									"mat": "Genética y Biología Molecular",
+									"cond": "A"
+								},
+								{
+									"mat": "Bioestadística",
+									"cond": "A"
+								},
+								{
+									"mat": "Prueba de Manejo de Software",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Microbiología General",
+							"codigo": "402",
+							"paraCursar": [
+								{
+									"mat": "Química Física Biológica",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Biológica I",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Biológica II",
+									"cond": "R"
+								},
+								{
+									"mat": "Genética y Biología Molecular",
+									"cond": "R"
+								},
+								{
+									"mat": "Prueba de Manejo de Software",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Química Biológica I",
+									"cond": "A"
+								},
+								{
+									"mat": "Genética y Biología Molecular",
+									"cond": "A"
+								},
+								{
+									"mat": "Prueba de Manejo de Software",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Fisiología Humana",
+							"codigo": "403",
+							"paraCursar": [
+								{
+									"mat": "Morfología",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Física Biológica",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Biológica I",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Biológica II",
+									"cond": "R"
+								},
+								{
+									"mat": "Prueba de Manejo de Software",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Química Biológica I",
+									"cond": "A"
+								},
+								{
+									"mat": "Prueba de Manejo de Software",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Farmacología",
+							"codigo": "404",
+							"paraCursar": [
+								{
+									"mat": "Química Orgánica II",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Biológica I",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Biológica II",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Física Biológica",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Química Biológica I",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Física Biológica",
+									"cond": "A"
+								},
+								{
+									"mat": "Prueba de Manejo de Software",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Bromatología y Nutrición",
+							"codigo": "405",
+							"paraCursar": [
+								{
+									"mat": "Química Biológica I",
+									"cond": "A"
+								},
+								{
+									"mat": "Microbiología General",
+									"cond": "R"
+								},
+								{
+									"mat": "Química Analítica Instrumental",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Química Biológica I",
+									"cond": "A"
+								},
+								{
+									"mat": "Microbiología General",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Analítica Instrumental",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Fisiopatología",
+							"codigo": "406",
+							"paraCursar": [
+								{
+									"mat": "Fisiología Humana",
+									"cond": "R"
+								},
+								{
+									"mat": "Microbiología General",
+									"cond": "R"
+								},
+								{
+									"mat": "Química Biológica II",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Física Biológica",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Microbiología General",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Física Biológica",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Inmunología Clínica",
+							"codigo": "407",
+							"paraCursar": [
+								{
+									"mat": "Microbiología General",
+									"cond": "R"
+								},
+								{
+									"mat": "Fisiología Humana",
+									"cond": "R"
+								},
+								{
+									"mat": "Bioestadística",
+									"cond": "A"
+								},
+								{
+									"mat": "Genética y Biología Molecular",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Microbiología General",
+									"cond": "A"
+								},
+								{
+									"mat": "Bioestadística",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Parasitología Humana",
+							"codigo": "408",
+							"paraCursar": [
+								{
+									"mat": "Microbiología General",
+									"cond": "R"
+								},
+								{
+									"mat": "Fisiología Humana",
+									"cond": "R"
+								},
+								{
+									"mat": "Bioestadística",
+									"cond": "A"
+								},
+								{
+									"mat": "Genética y Biología Molecular",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Microbiología General",
+									"cond": "A"
+								},
+								{
+									"mat": "Bioestadística",
+									"cond": "A"
+								},
+								{
+									"mat": "Genética y Biología Molecular",
+									"cond": "A"
+								}
+							],
 							"planDeEstudio": "",
 							"mesas": []
 						}
