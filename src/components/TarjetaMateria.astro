@@ -1,12 +1,11 @@
 ---
 import MateriaRequisito from "./MateriaRequisito.astro"
 import { Icon } from 'astro-icon/components';
-import { useState } from 'astro/jsx';
 
 
 interface Props {
 	materia: string
-	codigo: string
+	codigo: number
 	paraCursar: Array<condicion> | null
 	paraRendir: Array<condicion> | null
 	planDeEstudio: string | null
@@ -22,6 +21,8 @@ interface mesa {
 
 const {materia, codigo, paraCursar, paraRendir, planDeEstudio, mesas} = Astro.props
 const baseURL = "https://www.google.com/calendar/render?action=TEMPLATE"
+
+const materiaId = materia.replace(/\s+/g, "-").toLowerCase()
 ---
 
 <article
@@ -37,16 +38,16 @@ const baseURL = "https://www.google.com/calendar/render?action=TEMPLATE"
 					<h3 class="text-primary text-center text-headline-small relative flex-1 flex items-center justify-center">
 						{materia}
 					</h3>
-					<md-filled-icon-button id="toggle-button" aria-expanded="false" toggle>
+					<md-filled-icon-button id={`toggle-button`} aria-expanded="false" class="hidden" toggle>
 						<Icon name="chevron-down" size={22} />
-						<Icon name="chevron-up" size={22} slot="selected"/>
+						<Icon name="chevron-up" size={22} slot="selected" />
 					</md-filled-icon-button>
 				</div>
-				<!-- Mas Info -->
+				<!-- Más Info -->
 				<div
-				id="more-info"
-				class="w-full flex gap-2 flex-row p-2"
-				aria-hidden="true">
+					id={`more-info`}
+					class="flex transition-all duration-300 w-full flex-col sm:flex-row gap-2 p-2"
+					aria-hidden="true">
 					<div class="flex-1 border border-outline rounded-3xl p-2 flex flex-col gap-2.5 items-center justify-start self-stretch shrink-0 relative overflow-hidden">
 						<div class="bg-secondary text-on-secondary rounded-2xl p-2.5 flex flex-col lg:flex-row gap-2.5 items-center justify-center self-stretch shrink-0 relative">
 							{
@@ -148,19 +149,14 @@ const baseURL = "https://www.google.com/calendar/render?action=TEMPLATE"
 	}
 </article>
 
-<!-- <script>
-	function toggleInfo() {
-		const infoDiv = document.getElementById('more-info');
-		const toggleButton = document.getElementById('toggle-button');
-	
-		if (infoDiv.classList.contains('hidden')) {
-			infoDiv.classList.remove('hidden');
-			infoDiv.setAttribute('aria-hidden', 'false');
-			toggleButton.setAttribute('aria-expanded', 'true');
-		} else {
-			infoDiv.classList.add('hidden');
-			infoDiv.setAttribute('aria-hidden', 'true');
-			toggleButton.setAttribute('aria-expanded', 'false');
+<script>
+	document.getElementById(`toggle-button`)?.addEventListener("click", () => {
+		
+		const moreInfo = document.getElementById(`more-info`);
+
+		if (moreInfo) {
+			moreInfo.classList.toggle("hidden"); // Alternar visibilidad
+			moreInfo.classList.toggle("flex"); // Asegurarse de que se muestra correctamente
 		}
-	}
-  </script> -->
+	});
+</script>

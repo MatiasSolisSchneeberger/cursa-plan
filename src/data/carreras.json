@@ -25,7 +25,11 @@
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",
-							"mesas": []
+							"mesas": [
+								{
+									"fecha": "2024-12-12"
+								}
+							]
 						},
 						{
 							"materia": "Cálculo Diferencial e Integral",
@@ -88,7 +92,7 @@
 					"materias": [
 						{
 							"materia": "Mecánica, Calor y Termodinámica",
-							"codigo": "201",
+							"codigo": 201,
 							"paraCursar": [
 								{
 									"mat": "Cálculo Diferencial e Integral",
@@ -122,7 +126,7 @@
 						},
 						{
 							"materia": "Química Orgánica I",
-							"codigo": "202",
+							"codigo": 202,
 							"paraCursar": [
 								{
 									"mat": "Química Inorgánica",
@@ -152,7 +156,7 @@
 						},
 						{
 							"materia": "Morfología",
-							"codigo": "203",
+							"codigo": 203,
 							"paraCursar": [
 								{
 									"mat": "Biología General y Celular",
@@ -170,7 +174,7 @@
 						},
 						{
 							"materia": "Electricidad, Magnetismo, Óptica y Sonido",
-							"codigo": "204",
+							"codigo": 204,
 							"paraCursar": [
 								{
 									"mat": "Química Inorgánica",
@@ -200,7 +204,7 @@
 						},
 						{
 							"materia": "Química Orgánica II",
-							"codigo": "205",
+							"codigo": 205,
 							"paraCursar": [
 								{
 									"mat": "Química Orgánica I",
@@ -226,7 +230,7 @@
 						},
 						{
 							"materia": "Química Analítica",
-							"codigo": "206",
+							"codigo": 206,
 							"paraCursar": [
 								{
 									"mat": "Química Inorgánica",
@@ -261,7 +265,7 @@
 					"materias": [
 						{
 							"materia": "Química Biológica I",
-							"codigo": "301",
+							"codigo": 301,
 							"paraCursar": [
 								{
 									"mat": "Química Orgánica I",
@@ -307,7 +311,7 @@
 						},
 						{
 							"materia": "Química Física Biológica",
-							"codigo": "302",
+							"codigo": 302,
 							"paraCursar": [
 								{
 									"mat": "Mecánica, Calor y Termodinámica",
@@ -357,7 +361,7 @@
 						},
 						{
 							"materia": "Bioestadística",
-							"codigo": "303",
+							"codigo": 303,
 							"paraCursar": [
 								{
 									"mat": "Cálculo Diferencial e Integral",
@@ -391,7 +395,7 @@
 						},
 						{
 							"materia": "Química Biológica II",
-							"codigo": "304",
+							"codigo": 304,
 							"paraCursar": [
 								{
 									"mat": "Química Física Biológica",
@@ -421,7 +425,7 @@
 						},
 						{
 							"materia": "Genética y Biología Molecular",
-							"codigo": "305",
+							"codigo": 305,
 							"paraCursar": [
 								{
 									"mat": "Química Orgánica II",
@@ -455,7 +459,7 @@
 						},
 						{
 							"materia": "Química Analítica Instrumental",
-							"codigo": "306",
+							"codigo": 306,
 							"paraCursar": [
 								{
 									"mat": "Química Analítica",
@@ -498,7 +502,7 @@
 					"materias": [
 						{
 							"materia": " Virología Clínica",
-							"codigo": "401",
+							"codigo": 401,
 							"paraCursar": [
 								{
 									"mat": "Química Biológica I",
@@ -544,7 +548,7 @@
 						},
 						{
 							"materia": "Microbiología General",
-							"codigo": "402",
+							"codigo": 402,
 							"paraCursar": [
 								{
 									"mat": "Química Física Biológica",
@@ -586,7 +590,7 @@
 						},
 						{
 							"materia": "Fisiología Humana",
-							"codigo": "403",
+							"codigo": 403,
 							"paraCursar": [
 								{
 									"mat": "Morfología",
@@ -624,7 +628,7 @@
 						},
 						{
 							"materia": "Farmacología",
-							"codigo": "404",
+							"codigo": 404,
 							"paraCursar": [
 								{
 									"mat": "Química Orgánica II",
@@ -662,7 +666,7 @@
 						},
 						{
 							"materia": "Bromatología y Nutrición",
-							"codigo": "405",
+							"codigo": 405,
 							"paraCursar": [
 								{
 									"mat": "Química Biológica I",
@@ -696,7 +700,7 @@
 						},
 						{
 							"materia": "Fisiopatología",
-							"codigo": "406",
+							"codigo": 406,
 							"paraCursar": [
 								{
 									"mat": "Fisiología Humana",
@@ -730,7 +734,7 @@
 						},
 						{
 							"materia": "Inmunología Clínica",
-							"codigo": "407",
+							"codigo": 407,
 							"paraCursar": [
 								{
 									"mat": "Microbiología General",
@@ -764,7 +768,7 @@
 						},
 						{
 							"materia": "Parasitología Humana",
-							"codigo": "408",
+							"codigo": 408,
 							"paraCursar": [
 								{
 									"mat": "Microbiología General",
@@ -807,7 +811,7 @@
 					"materias": [
 						{
 							"materia": "materia I",
-							"codigo": "",
+							"codigo": 0,
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",
@@ -826,7 +830,7 @@
 					"materias": [
 						{
 							"materia": "materia I",
-							"codigo": "",
+							"codigo": 0,
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",
@@ -845,7 +849,7 @@
 					"materias": [
 						{
 							"materia": "materia I",
-							"codigo": "",
+							"codigo": 0,
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",
@@ -864,7 +868,7 @@
 					"materias": [
 						{
 							"materia": "materia I",
-							"codigo": "",
+							"codigo": 0,
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",
@@ -883,7 +887,7 @@
 					"materias": [
 						{
 							"materia": "materia I",
-							"codigo": "",
+							"codigo": 0,
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",
@@ -902,7 +906,7 @@
 					"materias": [
 						{
 							"materia": "materia I",
-							"codigo": "",
+							"codigo": 0,
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",
@@ -921,7 +925,7 @@
 					"materias": [
 						{
 							"materia": "materia I",
-							"codigo": "",
+							"codigo": 0,
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",
@@ -940,7 +944,7 @@
 					"materias": [
 						{
 							"materia": "materia I",
-							"codigo": "",
+							"codigo": 0,
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",
@@ -958,9 +962,315 @@
 					"año": 1,
 					"materias": [
 						{
-							"materia": "materia I",
-							"codigo": "",
-							"paraCursar": [],
+							"materia": "Algoritmos y Estructuras de Datos I",
+							"codigo": 0,
+							"paraCursar": [
+								
+							],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Algebra",
+							"codigo": 0,
+							"paraCursar": [
+
+							],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Algoritmos y Estructuras de Datos II",
+							"codigo": 0,
+							"paraCursar": [
+								
+							],
+							"paraRendir": [
+								
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Lógica y Matemática Computacional",
+							"codigo": 0,
+							"paraCursar": [
+
+							],
+							"paraRendir": [
+								
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Sistemas y Organizaciones",
+							"codigo": 0,
+							"paraCursar": [
+
+							],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						}
+					]
+				},
+				{
+					"año": 2,
+					"materias": [
+						{
+							"materia": "Paradigmas y Lenguajes",
+							"codigo": 0,
+							"paraCursar": [
+								
+							],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Arquitectura y Organización de Computadoras",
+							"codigo": 0,
+							"paraCursar": [
+
+							],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Cálculo Diferencial e Integral",
+							"codigo": 0,
+							"paraCursar": [
+
+							],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Programación Orientada a Objetos",
+							"codigo": 0,
+							"paraCursar": [
+
+							],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Sistemas Operativos",
+							"codigo": 0,
+							"paraCursar": [
+
+							],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Administración y Gestión de Organizaciones",
+							"codigo": 0,
+							"paraCursar": [
+
+							],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						}
+					]
+				},
+				{
+					"año": 3,
+					"materias": [
+						{
+							"materia": "Taller de Programación I",
+							"codigo": 0,
+							"paraCursar": [
+								
+							],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Comunicaciones de Datos",
+							"codigo": 0,
+							"paraCursar": [
+
+							],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Ingeniería de Software I",
+							"codigo": 0,
+							"paraCursar": [
+
+							],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Taller de Programación II",
+							"codigo": 0,
+							"paraCursar": [
+
+							],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Probabilidad y Estadística",
+							"codigo": 0,
+							"paraCursar": [
+
+							],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Bases de Datos I",
+							"codigo": 0,
+							"paraCursar": [
+
+							],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Inglés Técnico Informático (extracurricular)",
+							"codigo": 0,
+							"paraCursar": [
+
+							],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						}
+					]
+				},
+				{
+					"año": 4,
+					"materias": [
+						{
+							"materia": "Ingeniería de Software II",
+							"codigo": 0,
+							"paraCursar": [
+								
+							],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Economía Aplicada",
+							"codigo": 0,
+							"paraCursar": [
+
+							],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Teoría de la Computación",
+							"codigo": 0,
+							"paraCursar": [
+
+							],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Redes de Datos",
+							"codigo": 0,
+							"paraCursar": [
+
+							],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Bases de Datos II",
+							"codigo": 0,
+							"paraCursar": [
+
+							],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Métodos Computacionales",
+							"codigo": 0,
+							"paraCursar": [
+
+							],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						}
+					]
+				},
+				{
+					"año": 5,
+					"materias": [
+						{
+							"materia": "Proyecto Final",
+							"codigo": 0,
+							"paraCursar": [
+								
+							],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Auditoria y Seguridad Informática",
+							"codigo": 0,
+							"paraCursar": [
+
+							],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Optativa I",
+							"codigo": 0,
+							"paraCursar": [
+
+							],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Optativa II",
+							"codigo": 0,
+							"paraCursar": [
+
+							],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Optativa III",
+							"codigo": 0,
+							"paraCursar": [
+
+							],
 							"paraRendir": [],
 							"planDeEstudio": "",
 							"mesas": []
@@ -978,7 +1288,7 @@
 					"materias": [
 						{
 							"materia": "materia I",
-							"codigo": "",
+							"codigo": 0,
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",
@@ -997,7 +1307,7 @@
 					"materias": [
 						{
 							"materia": "materia I",
-							"codigo": "",
+							"codigo": 0,
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",
@@ -1016,7 +1326,7 @@
 					"materias": [
 						{
 							"materia": "materia I",
-							"codigo": "",
+							"codigo": 0,
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",
@@ -1035,7 +1345,7 @@
 					"materias": [
 						{
 							"materia": "materia I",
-							"codigo": "",
+							"codigo": 0,
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",
@@ -1054,7 +1364,7 @@
 					"materias": [
 						{
 							"materia": "materia I",
-							"codigo": "",
+							"codigo": 0,
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",
@@ -1073,7 +1383,7 @@
 					"materias": [
 						{
 							"materia": "materia I",
-							"codigo": "",
+							"codigo": 0,
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": "",

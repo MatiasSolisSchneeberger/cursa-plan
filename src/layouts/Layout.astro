@@ -21,7 +21,6 @@ import "@fontsource/poppins/800-italic.css"
 import "@fontsource/poppins/900-italic.css"
 
 /* Importar componentes */
-import { ClientRouter } from 'astro:transitions';
 import Analytics from '@vercel/analytics/astro'
 
 import NavHeader from "@sections/NavHeader.astro"
@@ -65,7 +64,6 @@ const {title} = Astro.props
 			document.adoptedStyleSheets.push(typescaleStyles.styleSheet)
 		</script>
 		<!-- View Transition -->
-		<ClientRouter />
 		<Analytics/>
 	</head>
 	<body>

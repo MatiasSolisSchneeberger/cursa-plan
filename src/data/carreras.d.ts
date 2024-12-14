@@ -15,7 +15,7 @@ interface cursada {
 
 interface materia {
     materia: string;
-    codigo: string;
+    codigo: number;
     paraCursar: Array<condicion> | null;
     paraRendir: Array<condicion> | null;
     planDeEstudio: string;
