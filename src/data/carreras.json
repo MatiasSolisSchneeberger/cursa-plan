@@ -1278,10 +1278,16 @@
 							"materia": "Probabilidad y Estadística",
 							"codigo": 0,
 							"paraCursar": [
-								"203R"
+								{
+									"mat": "Cálculo Diferencial e Integral",
+									"cond": "R"
+								}
 							],
 							"paraRendir": [
-								"203A"
+								{
+									"mat": "Cálculo Diferencial e Integral",
+									"cond": "A"
+								}
 							],
 							"planDeEstudio": "",
 							"mesas": []
@@ -1399,10 +1405,16 @@
 							"materia": "Redes de Datos",
 							"codigo": 0,
 							"paraCursar": [
-								{"mat": "Comunicaciones de Datos", "cond": "A"}
+								{
+									"mat": "Comunicaciones de Datos",
+									"cond": "A"
+								}
 							],
 							"paraRendir": [
-								{"mat": "Comunicaciones de Datos", "cond": "A"}
+								{
+									"mat": "Comunicaciones de Datos",
+									"cond": "A"
+								}
 							],
 							"planDeEstudio": "",
 							"mesas": []
@@ -1411,14 +1423,20 @@
 							"materia": "Bases de Datos II",
 							"codigo": 0,
 							"paraCursar": [
-								"306R",
+								{
+									"mat": "Bases de Datos I",
+									"cond": "R"
+								},
 								{
 									"mat": "Ingeniería de Software I",
 									"cond": "A"
 								}
 							],
 							"paraRendir": [
-								"306A"
+								{
+									"mat": "Bases de Datos I",
+									"cond": "A"
+								}
 							],
 							"planDeEstudio": "",
 							"mesas": []
@@ -1431,7 +1449,10 @@
 									"mat": "Probabilidad y Estadística",
 									"cond": "R"
 								},
-								"203A"
+								{
+									"mat": "Cálculo Diferencial e Integral",
+									"cond": "A"
+								}
 							],
 							"paraRendir": [
 								{
@@ -1451,13 +1472,28 @@
 							"materia": "Proyecto Final",
 							"codigo": 0,
 							"paraCursar": [
-								"404R",
-								"405R",
-								"401A"
+								{
+									"mat": "Redes de Datos",
+									"cond": "R"
+								},
+								{
+									"mat": "Bases de Datos II",
+									"cond": "R"
+								},
+								{
+									"mat": "Ingeniería de Software II",
+									"cond": "A"
+								}
 							],
 							"paraRendir": [
-								"501R",
-								"Todas las materias del Plan"
+								{
+									"mat": "Proyecto Final de Carrera",
+									"cond": "R"
+								},
+								{
+									"mat": "Todas las materias del Plan",
+									"cond": null
+								}
 							],
 							"planDeEstudio": "",
 							"mesas": []
@@ -1466,13 +1502,28 @@
 							"materia": "Auditoria y Seguridad Informática",
 							"codigo": 0,
 							"paraCursar": [
-								"404R",
-								"405R",
-								"401A"
+								{
+									"mat": "Redes de Datos",
+									"cond": "R"
+								},
+								{
+									"mat": "Bases de Datos II",
+									"cond": "R"
+								},
+								{
+									"mat": "Ingeniería de Software II",
+									"cond": "A"
+								}
 							],
 							"paraRendir": [
-								"404A",
-								"405A"
+								{
+									"mat": "Redes de Datos",
+									"cond": "A"
+								},
+								{
+									"mat": "Bases de Datos II",
+									"cond": "A"
+								}
 							],
 							"planDeEstudio": "",
 							"mesas": []
@@ -1481,14 +1532,20 @@
 							"materia": "Optativa I",
 							"codigo": 0,
 							"paraCursar": [
-								"403R",
+								{
+									"mat": "Teoría de la Computación",
+									"cond": "R"
+								},
 								{
 									"mat": "Probabilidad y Estadística",
 									"cond": "A"
 								}
 							],
 							"paraRendir": [
-								"403A"
+								{
+									"mat": "Teoría de la Computación",
+									"cond": "A"
+								}
 							],
 							"planDeEstudio": "",
 							"mesas": []
@@ -1497,14 +1554,20 @@
 							"materia": "Optativa II",
 							"codigo": 0,
 							"paraCursar": [
-								"403R",
+								{
+									"mat": "Teoría de la Computación",
+									"cond": "R"
+								},
 								{
 									"mat": "Probabilidad y Estadística",
 									"cond": "A"
 								}
 							],
 							"paraRendir": [
-								"403A"
+								{
+									"mat": "Teoría de la Computación",
+									"cond": "A"
+								}
 							],
 							"planDeEstudio": "",
 							"mesas": []
@@ -1513,14 +1576,20 @@
 							"materia": "Optativa III",
 							"codigo": 0,
 							"paraCursar": [
-								"403R",
+								{
+									"mat": "Teoría de la Computación",
+									"cond": "R"
+								},
 								{
 									"mat": "Probabilidad y Estadística",
 									"cond": "A"
 								}
 							],
 							"paraRendir": [
-								"403A"
+								{
+									"mat": "Teoría de la Computación",
+									"cond": "A"
+								}
 							],
 							"planDeEstudio": "",
 							"mesas": []
