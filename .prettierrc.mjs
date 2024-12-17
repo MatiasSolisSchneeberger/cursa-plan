@@ -1,4 +1,4 @@
-/** @type {import("prettier").Config} */
+/* /** @type {import("prettier").Config}  
 export default {
     plugins: ['prettier-plugin-astro'],
     overrides: [
@@ -10,3 +10,4 @@ export default {
       },
     ],
   };
+ */
