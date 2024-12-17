@@ -69,7 +69,7 @@ const materiaId = materia.replace(/\s+/g, "-").toLowerCase()
 						</div>
 
 						<div class="flex flex-col lg:flex-row gap-2.5 w-full">
-							<md-filled-tonal-button class="w-full text-on-primary">
+							<md-filled-tonal-button disabled={mesas == null || mesas.length === 0} class="w-full text-on-primary">
 								Ver Mas
 							</md-filled-tonal-button>
 
@@ -95,8 +95,16 @@ const materiaId = materia.replace(/\s+/g, "-").toLowerCase()
 
 						<div class="flex flex-col gap-2.5 items-start justify-start self-stretch shrink-0 relative">
 							<div class="flex flex-col lg:flex-row gap-2.5 items-start justify-start self-stretch shrink-0 relative">
-								<md-filled-tonal-button class="w-full text-on-primary"> Ver </md-filled-tonal-button>
-								<md-elevated-button class="w-full"> Descargar </md-elevated-button>
+								<md-filled-tonal-button
+								disabled={planDeEstudio === null}
+								class="w-full text-on-primary">
+									Ver
+								</md-filled-tonal-button>
+								<md-elevated-button
+								disabled={planDeEstudio === null}
+								class="w-full">
+									Descargar
+								</md-elevated-button>
 							</div>
 						</div>
 					</div>

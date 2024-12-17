@@ -18,7 +18,7 @@ interface materia {
     codigo: number;
     paraCursar: Array<condicion> | null;
     paraRendir: Array<condicion> | null;
-    planDeEstudio: string;
+    planDeEstudio: string | null;
     mesas: Array<mesa> | null;
 }
 
