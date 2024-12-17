@@ -867,10 +867,958 @@
 					"año": 1,
 					"materias": [
 						{
-							"materia": "materia I",
-							"codigo": 0,
+							"materia": "Álgebra y Geometría Analítica",
+							"codigo": 101,
 							"paraCursar": [],
 							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Cálculo Diferencial e Integral I",
+							"codigo": 102,
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Química General",
+							"codigo": 103,
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Seminario de Ingeniería - Módulo I",
+							"codigo": 104,
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Sistemas de Representación",
+							"codigo": 105,
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Informática",
+							"codigo": 106,
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Cálculo Diferencial e Integral II",
+							"codigo": 107,
+							"paraCursar": [
+								{
+									"mat": "Cálculo Diferencial e Integral I",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Cálculo Diferencial e Integral I",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Mecánica, Óptica y Sonido",
+							"codigo": 108,
+							"paraCursar": [
+								{
+									"mat": "Cálculo Diferencial e Integral I",
+									"cond": "R"
+								},
+								{
+									"mat": "Álgebra y Geometría Analítica",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Cálculo Diferencial e Integral I",
+									"cond": "A"
+								},
+								{
+									"mat": "Álgebra y Geometría Analítica",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						}
+					]
+				},
+				{
+					"año": 2,
+					"materias": [
+						{
+							"materia": "Electricidad, Magnetismo y Calor",
+							"codigo": 201,
+							"paraCursar": [
+								{
+									"mat": "Mecánica, Óptica y Sonido",
+									"cond": "R"
+								},
+								{
+									"mat": "Cálculo Diferencial e Integral I",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Mecánica, Óptica y Sonido",
+									"cond": "A"
+								},
+								{
+									"mat": "Cálculo Diferencial e Integral I",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Estadística y Análisis de Datos",
+							"codigo": 202,
+							"paraCursar": [
+								{
+									"mat": "Cálculo Diferencial e Integral II",
+									"cond": "R"
+								},
+								{
+									"mat": "Álgebra y Geometría Analítica",
+									"cond": "R"
+								},
+								{
+									"mat": "Cálculo Diferencial e Integral I",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Cálculo Diferencial e Integral II",
+									"cond": "A"
+								},
+								{
+									"mat": "Álgebra y Geometría Analítica",
+									"cond": "A"
+								},
+								{
+									"mat": "Cálculo Diferencial e Integral I",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Física Atómica",
+							"codigo": 203,
+							"paraCursar": [
+								{
+									"mat": "Mecánica, Óptica y Sonido",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Mecánica, Óptica y Sonido",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Seminario de Ingeniería - Módulo II",
+							"codigo": 204,
+							"paraCursar": [
+								{
+									"mat": "Seminario de Ingeniería - Módulo I",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Seminario de Ingeniería - Módulo I",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Física del Estado Sólido",
+							"codigo": 205,
+							"paraCursar": [
+								{
+									"mat": "Electricidad, Magnetismo y Calor",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Electricidad, Magnetismo y Calor",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Métodos Numéricos",
+							"codigo": 206,
+							"paraCursar": [
+								{
+									"mat": "Informática",
+									"cond": "R"
+								},
+								{
+									"mat": "Álgebra y Geometría Analítica",
+									"cond": "A"
+								},
+								{
+									"mat": "Cálculo Diferencial e Integral I",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Informática",
+									"cond": "A"
+								},
+								{
+									"mat": "Álgebra y Geometría Analítica",
+									"cond": "A"
+								},
+								{
+									"mat": "Cálculo Diferencial e Integral I",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Materiales y Componentes",
+							"codigo": 207,
+							"paraCursar": [
+								{
+									"mat": "Electricidad, Magnetismo y Calor",
+									"cond": "R"
+								},
+								{
+									"mat": "Química General",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Electricidad, Magnetismo y Calor",
+									"cond": "A"
+								},
+								{
+									"mat": "Química General",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Electrotecnia I",
+							"codigo": 208,
+							"paraCursar": [
+								{
+									"mat": "Electricidad, Magnetismo y Calor",
+									"cond": "R"
+								},
+								{
+									"mat": "Mecánica, Óptica y Sonido",
+									"cond": "A"
+								},
+								{
+									"mat": "Cálculo Diferencial e Integral II",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Mecánica, Óptica y Sonido",
+									"cond": "A"
+								},
+								{
+									"mat": "Cálculo Diferencial e Integral II",
+									"cond": "A"
+								},
+								{
+									"mat": "Electricidad, Magnetismo y Calor",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Prueba de Traducción Técnica",
+							"codigo": 209,
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": "",
+							"mesas": []
+						}
+					]
+				},
+				{
+					"año": 3,
+					"materias": [
+						{
+							"materia": "Análisis Matemático",
+							"codigo": 301,
+							"paraCursar": [
+								{
+									"mat": "Cálculo Diferencial e Integral II",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Cálculo Diferencial e Integral II",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Electrotecnia II",
+							"codigo": 302,
+							"paraCursar": [
+								{
+									"mat": "Electrotecnia I",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Electrotecnia I",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Medidas Eléctricas",
+							"codigo": 303,
+							"paraCursar": [
+								{
+									"mat": "Electrotecnia I",
+									"cond": "R"
+								},
+								{
+									"mat": "Estadística y Análisis de Datos",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Electrotecnia I",
+									"cond": "A"
+								},
+								{
+									"mat": "Estadística y Análisis de Datos",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Electromagnetismo",
+							"codigo": 304,
+							"paraCursar": [
+								{
+									"mat": "Análisis Matemático",
+									"cond": "R"
+								},
+								{
+									"mat": "Física Atómica",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Análisis Matemático",
+									"cond": "A"
+								},
+								{
+									"mat": "Física Atómica",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Electrónica I",
+							"codigo": 305,
+							"paraCursar": [
+								{
+									"mat": "Materiales y Componentes",
+									"cond": "R"
+								},
+								{
+									"mat": "Electrotecnia I",
+									"cond": "A"
+								},
+								{
+									"mat": "Física del Estado Sólido",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Materiales y Componentes",
+									"cond": "A"
+								},
+								{
+									"mat": "Electrotecnia I",
+									"cond": "A"
+								},
+								{
+									"mat": "Física del Estado Sólido",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Teoría de los Circuitos",
+							"codigo": 306,
+							"paraCursar": [
+								{
+									"mat": "Análisis Matemático",
+									"cond": "R"
+								},
+								{
+									"mat": "Electrotecnia I",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Análisis Matemático",
+									"cond": "A"
+								},
+								{
+									"mat": "Electrotecnia I",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Seminario de Ingeniería - Módulo III",
+							"codigo": 307,
+							"paraCursar": [
+								{
+									"mat": "Seminario de Ingeniería - Módulo II",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Seminario de Ingeniería - Módulo II",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						}
+					]
+				},
+				{
+					"año": 4,
+					"materias": [
+						{
+							"materia": "Circuitos Lógicos",
+							"codigo": 401,
+							"paraCursar": [
+								{
+									"mat": "Electrónica I",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Electrónica I",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Electrónica II",
+							"codigo": 402,
+							"paraCursar": [
+								{
+									"mat": "Electrónica I",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Electrónica I",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Señales y Sistemas",
+							"codigo": 403,
+							"paraCursar": [
+								{
+									"mat": "Teoría de los Circuitos",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Teoría de los Circuitos",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Teoría de Control",
+							"codigo": 404,
+							"paraCursar": [
+								{
+									"mat": "Teoría de los Circuitos",
+									"cond": "R"
+								},
+								{
+									"mat": "Análisis Matemático",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Teoría de los Circuitos",
+									"cond": "A"
+								},
+								{
+									"mat": "Análisis Matemático",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Seminario de Ingeniería - Módulo IV",
+							"codigo": 405,
+							"paraCursar": [
+								{
+									"mat": "Seminario de Ingeniería - Módulo III",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Seminario de Ingeniería - Módulo III",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Electrónica Industrial",
+							"codigo": 406,
+							"paraCursar": [
+								{
+									"mat": "Electrotecnia II",
+									"cond": "A"
+								},
+								{
+									"mat": "Electrónica I",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Electrotecnia II",
+									"cond": "A"
+								},
+								{
+									"mat": "Electrónica I",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Electrónica III",
+							"codigo": 407,
+							"paraCursar": [
+								{
+									"mat": "Circuitos Lógicos",
+									"cond": "R"
+								},
+								{
+									"mat": "Electrónica I",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Circuitos Lógicos",
+									"cond": "A"
+								},
+								{
+									"mat": "Electrónica I",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Mediciones Electrónicas",
+							"codigo": 408,
+							"paraCursar": [
+								{
+									"mat": "Electrónica II",
+									"cond": "R"
+								},
+								{
+									"mat": "Medidas Eléctricas",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Electrónica II",
+									"cond": "A"
+								},
+								{
+									"mat": "Medidas Eléctricas",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Optativa I (Fundamentos de Comunicaciones)",
+							"codigo": 409,
+							"paraCursar": [
+								{
+									"mat": "Electrónica II",
+									"cond": "R"
+								},
+								{
+									"mat": "Electrónica I",
+									"cond": "A"
+								},
+								{
+									"mat": "Electromagnetismo",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Electrónica II",
+									"cond": "A"
+								},
+								{
+									"mat": "Electrónica I",
+									"cond": "A"
+								},
+								{
+									"mat": "Electromagnetismo",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						}
+					]
+				},
+				{
+					"año": 5,
+					"materias": [
+						{
+							"materia": "Ingeniería Legal",
+							"codigo": 501,
+							"paraCursar": [
+								{
+									"mat": "Seminario de Ingeniería - Modulo IV",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Seminario de Ingeniería - Modulo IV",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Optativa II (Propagación y Antenas)",
+							"codigo": 502,
+							"paraCursar": [
+								{
+									"mat": "Fundamentos de Comunicaciones",
+									"cond": "R"
+								},
+								{
+									"mat": "Señales y Sistemas",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Fundamentos de Comunicaciones",
+									"cond": "A"
+								},
+								{
+									"mat": "Señales y Sistemas",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Optativa II (Procesamiento Digital de Bísemeles)",
+							"codigo": 503,
+							"paraCursar": [
+								{
+									"mat": "Bioinstrumentación",
+									"cond": "R"
+								},
+								{
+									"mat": "Señales y Sistemas",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Bioinstrumentación",
+									"cond": "A"
+								},
+								{
+									"mat": "Señales y Sistemas",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Optativa III (Transmisión de la Información)",
+							"codigo": 504,
+							"paraCursar": [
+								{
+									"mat": "Fundamentos de Comunicaciones",
+									"cond": "R"
+								},
+								{
+									"mat": "Señales y Sistemas",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Fundamentos de Comunicaciones",
+									"cond": "A"
+								},
+								{
+									"mat": "Señales y Sistemas",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Optativa III (Modelo y Simulación de Sistemas Fisiológicos)",
+							"codigo": 505,
+							"paraCursar": [
+								{
+									"mat": "Bioinstrumentación",
+									"cond": "R"
+								},
+								{
+									"mat": "Señales y Sistemas",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Bioinstrumentación",
+									"cond": "A"
+								},
+								{
+									"mat": "Señales y Sistemas",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Proyecto Final (anual)",
+							"codigo": 506,
+							"paraCursar": [
+								{
+									"mat": "Electrónica Industrial",
+									"cond": "R"
+								},
+								{
+									"mat": "Electrónica III",
+									"cond": "R"
+								},
+								{
+									"mat": "Mediciones Electrónicas",
+									"cond": "R"
+								},
+								{
+									"mat": "Teoría de Control",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Electrónica Industrial",
+									"cond": "A"
+								},
+								{
+									"mat": "Electrónica III",
+									"cond": "A"
+								},
+								{
+									"mat": "Mediciones Electrónicas",
+									"cond": "A"
+								},
+								{
+									"mat": "Teoría de Control",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Seminario de Ingeniería - Modulo V",
+							"codigo": 507,
+							"paraCursar": [
+								{
+									"mat": "Seminario de Ingeniería - Modulo IV",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Seminario de Ingeniería - Modulo IV",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Economía y Organización Industrial",
+							"codigo": 508,
+							"paraCursar": [
+								{
+									"mat": "Seminario de Ingeniería - Modulo III",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Seminario de Ingeniería - Modulo III",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Optativa IV (Sistemas de Comunicaciones)",
+							"codigo": 509,
+							"paraCursar": [
+								{
+									"mat": "Propagación y Antenas",
+									"cond": "R"
+								},
+								{
+									"mat": "Transmisión de la Energía",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Propagación y Antenas",
+									"cond": "A"
+								},
+								{
+									"mat": "Transmisión de la Energía",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": "",
+							"mesas": []
+						},
+						{
+							"materia": "Optativa IV (Ingeniería Clínica)",
+							"codigo": 510,
+							"paraCursar": [
+								{
+									"mat": "Procesamiento Digital de Bísemeles",
+									"cond": "R"
+								},
+								{
+									"mat": "Modelo y Simulación de Sistemas Fisiológicos",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Procesamiento Digital de Bísemeles",
+									"cond": "A"
+								},
+								{
+									"mat": "Modelo y Simulación de Sistemas Fisiológicos",
+									"cond": "A"
+								}
+							],
 							"planDeEstudio": "",
 							"mesas": []
 						}
@@ -1317,12 +2265,8 @@
 						{
 							"materia": "Inglés Técnico Informático (extracurricular)",
 							"codigo": 0,
-							"paraCursar": [
-								""
-							],
-							"paraRendir": [
-								""
-							],
+							"paraCursar": [],
+							"paraRendir": [],
 							"planDeEstudio": "",
 							"mesas": []
 						}

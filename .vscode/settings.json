@@ -21,7 +21,8 @@
         "markdown",
         "latex",
         "plaintext",
-        "astro"
+        "astro",
+        "json"
     ],
     "spellright.parserByClass": {
         "astro": {

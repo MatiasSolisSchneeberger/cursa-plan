@@ -23,8 +23,10 @@ if (!carreraData) {
 	throw new Error(`Carrera no encontrada: ${carrera}`);
 }
 
+const NombreCarrera = carreraData.carrera.replace(/-/g, " ");
+
 ---
-<Layout title=`${carrera} | Plan de estudio`>
+<Layout title=`${NombreCarrera} | Plan de estudio`>
 	<!-- Titulo de Pagina -->
 	<HeaderCarrera carrera={carreraData.carrera} emoji={carreraData.emoji}/>
 	<div class="flex flex-wrap gap-3 justify-center">
