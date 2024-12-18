@@ -73,11 +73,17 @@ const materiaId = materia.replace(/\s+/g, "-").toLowerCase();
 											Mesa:
 										</p>
 										<p class="text-center text-title-small relative flex items-center justify-center">
-											{new Date(
-												mesas[0].fecha,
-											).toLocaleDateString(
-												"es-ES",
-											)}
+											{mesas[0]
+												.fecha >
+											new Date()
+												? new Date(
+														mesas[0].fecha,
+													).toLocaleDateString(
+														"es-ES",
+													)
+												: new Date().toLocaleDateString(
+														"es-ES",
+													)}
 										</p>
 									</>
 								) : (
@@ -220,7 +226,6 @@ const materiaId = materia.replace(/\s+/g, "-").toLowerCase();
 			</div>
 		</div>
 	</div>
-	)
 </article>
 
 <script>

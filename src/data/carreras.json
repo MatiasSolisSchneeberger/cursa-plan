@@ -15,7 +15,22 @@
 							"planDeEstudio": null,
 							"mesas": [
 								{
-									"fecha": "2024-12-12"
+									"fecha": "2024-07-31"
+								},
+								{
+									"fecha": "2024-07-31"
+								},
+								{
+									"fecha": "2024-09-04"
+								},
+								{
+									"fecha": "2024-10-02"
+								},
+								{
+									"fecha": "2024-11-27"
+								},
+								{
+									"fecha": "2024-12-1"
 								}
 							]
 						},
@@ -25,11 +40,7 @@
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": null,
-							"mesas": [
-								{
-									"fecha": "2024-12-12"
-								}
-							]
+							"mesas": []
 						},
 						{
 							"materia": "Cálculo Diferencial e Integral",
@@ -829,10 +840,844 @@
 					"año": 1,
 					"materias": [
 						{
-							"materia": "materia I",
-							"codigo": 0,
+							"materia": "Algebra y Geometría Analítica",
+							"codigo": 101,
 							"paraCursar": [],
 							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Calculo Diferencial e Integral I",
+							"codigo": 102,
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Química General",
+							"codigo": 103,
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Calculo Diferencial e Integral II",
+							"codigo": 104,
+							"paraCursar": [
+								{
+									"mat": "Calculo Diferencial e Integral I",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Calculo Diferencial e Integral I",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Mecánica, Óptica y Sonido",
+							"codigo": 105,
+							"paraCursar": [
+								{
+									"mat": "Algebra y Geometría Analítica",
+									"cond": "R"
+								},
+								{
+									"mat": "Calculo Diferencial e Integral I",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Algebra y Geometría Analítica",
+									"cond": "A"
+								},
+								{
+									"mat": "Calculo Diferencial e Integral I",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Informática",
+							"codigo": 106,
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Sistema de Representación",
+							"codigo": 107,
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						}
+					]
+				},
+				{
+					"año": 2,
+					"materias": [
+						{
+							"materia": "Electricidad, Magnetismo y Calor",
+							"codigo": 201,
+							"paraCursar": [
+								{
+									"mat": "Mecánica, Óptica y Sonido",
+									"cond": "R"
+								},
+								{
+									"mat": "Calculo Diferencial e Integral I",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Mecánica, Óptica y Sonido",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Trigonometría",
+							"codigo": 202,
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Introducción a la Ingeniería en Agrimensura",
+							"codigo": 203,
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Estadística y Análisis de Datos",
+							"codigo": 204,
+							"paraCursar": [
+								{
+									"mat": "Algebra y Geometría Analítica",
+									"cond": "R"
+								},
+								{
+									"mat": "Calculo Diferencial e Integral II",
+									"cond": "R"
+								},
+								{
+									"mat": "Calculo Diferencial e Integral I",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Algebra y Geometría Analítica",
+									"cond": "A"
+								},
+								{
+									"mat": "Calculo Diferencial e Integral II",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Agrimensura Legal I",
+							"codigo": 205,
+							"paraCursar": [
+								{
+									"mat": "Introducción a la Ingeniería en Agrimensura",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Introducción a la Ingeniería en Agrimensura",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Topografía I",
+							"codigo": 206,
+							"paraCursar": [
+								{
+									"mat": "Trigonometría",
+									"cond": "R"
+								},
+								{
+									"mat": "Mecánica, Óptica y Sonido",
+									"cond": "R"
+								},
+								{
+									"mat": "Algebra y Geometría Analítica",
+									"cond": "A"
+								},
+								{
+									"mat": "Sistema de Representación",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Trigonometría",
+									"cond": "A"
+								},
+								{
+									"mat": "Mecánica, Óptica y Sonido",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Geografía Física y Geomorfología",
+							"codigo": 207,
+							"paraCursar": [
+								{
+									"mat": "Química General",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Química General",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Teoría de Errores y Compensación",
+							"codigo": 208,
+							"paraCursar": [
+								{
+									"mat": "Estadística y Análisis de Datos",
+									"cond": "R"
+								},
+								{
+									"mat": "Informática",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Estadística y Análisis de Datos",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Inglés Técnico",
+							"codigo": 209,
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": "Aprobada para cursar el Ciclo Superior",
+							"mesas": []
+						}
+					]
+				},
+				{
+					"año": 3,
+					"materias": [
+						{
+							"materia": "Dibujo Topográfico y Cartográfico",
+							"codigo": 301,
+							"paraCursar": [
+								{
+									"mat": "Topografía I",
+									"cond": "R"
+								},
+								{
+									"mat": "Sistemas de Representación",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Topografía I",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Topografía II",
+							"codigo": 302,
+							"paraCursar": [
+								{
+									"mat": "Topografía I",
+									"cond": "R"
+								},
+								{
+									"mat": "Teoría de Errores y Compensación",
+									"cond": "R"
+								},
+								{
+									"mat": "Trigonometría",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Topografía I",
+									"cond": "A"
+								},
+								{
+									"mat": "Teoría de Errores y Compensación",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Fotointerpretación y Teledetección",
+							"codigo": 303,
+							"paraCursar": [
+								{
+									"mat": "Geografía Física y Geomorfología",
+									"cond": "R"
+								},
+								{
+									"mat": "Electricidad, Magnetismo y Calor",
+									"cond": "R"
+								},
+								{
+									"mat": "Mecánica, Óptica y Sonido",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Geografía Física y Geomorfología",
+									"cond": "A"
+								},
+								{
+									"mat": "Electricidad, Magnetismo y Calor",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Análisis Matemático",
+							"codigo": 304,
+							"paraCursar": [
+								{
+									"mat": "Teoría de Errores y Compensación",
+									"cond": "R"
+								},
+								{
+									"mat": "Cálculo Diferencial e Integral II",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Teoría de Errores y Compensación",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Economía y Gestión Empresarial",
+							"codigo": 305,
+							"paraCursar": [
+								{
+									"mat": "Estadística y Análisis de Datos",
+									"cond": "R"
+								},
+								{
+									"mat": "Informática",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Estadística y Análisis de Datos",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Topografía III",
+							"codigo": 306,
+							"paraCursar": [
+								{
+									"mat": "Topografía II",
+									"cond": "R"
+								},
+								{
+									"mat": "Dibujo Topográfico y Cartográfico",
+									"cond": "R"
+								},
+								{
+									"mat": "Topografía I",
+									"cond": "A"
+								},
+								{
+									"mat": "Sistemas de Representación",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Topografía II",
+									"cond": "A"
+								},
+								{
+									"mat": "Dibujo Topográfico y Cartográfico",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Agrimensura Legal II",
+							"codigo": 307,
+							"paraCursar": [
+								{
+									"mat": "Topografía II",
+									"cond": "R"
+								},
+								{
+									"mat": "Agrimensura Legal I",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Topografía II",
+									"cond": "A"
+								},
+								{
+									"mat": "Agrimensura Legal I",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Optativa I",
+							"codigo": 308,
+							"paraCursar": [
+								{
+									"mat": "Geografía Física y Geomorfología",
+									"cond": "R"
+								},
+								{
+									"mat": "Sistemas de Representación",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Geografía Física y Geomorfología",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						}
+					]
+				},
+				{
+					"año": 4,
+					"materias": [
+						{
+							"materia": "Fotogrametría",
+							"codigo": 401,
+							"paraCursar": [
+								{
+									"mat": "Fotointerpretación y Teledetección",
+									"cond": "R"
+								},
+								{
+									"mat": "Topografía III",
+									"cond": "R"
+								},
+								{
+									"mat": "Topografía II",
+									"cond": "A"
+								},
+								{
+									"mat": "Electricidad, Magnetismo y Calor",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Fotointerpretación y Teledetección",
+									"cond": "A"
+								},
+								{
+									"mat": "Topografía III",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Geodesia Astronómica y Matemática",
+							"codigo": 402,
+							"paraCursar": [
+								{
+									"mat": "Análisis Matemático",
+									"cond": "R"
+								},
+								{
+									"mat": "Topografía III",
+									"cond": "R"
+								},
+								{
+									"mat": "Topografía II",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Análisis Matemático",
+									"cond": "A"
+								},
+								{
+									"mat": "Topografía III",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Catastro",
+							"codigo": 403,
+							"paraCursar": [
+								{
+									"mat": "Agrimensura Legal II",
+									"cond": "R"
+								},
+								{
+									"mat": "Economía y Gestión Empresarial",
+									"cond": "R"
+								},
+								{
+									"mat": "Agrimensura Legal I",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Agrimensura Legal II",
+									"cond": "A"
+								},
+								{
+									"mat": "Economía y Gestión Empresarial",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Ordenamiento Territorial",
+							"codigo": 404,
+							"paraCursar": [
+								{
+									"mat": "Fotointerpretación y Teledetección",
+									"cond": "R"
+								},
+								{
+									"mat": "Topografía I",
+									"cond": "A"
+								},
+								{
+									"mat": "Geografía Física y Geomorfología",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Fotointerpretación y Teledetección",
+									"cond": "A"
+								},
+								{
+									"mat": "Topografía I",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Geodesia Física y Global",
+							"codigo": 405,
+							"paraCursar": [
+								{
+									"mat": "Fotogrametría",
+									"cond": "R"
+								},
+								{
+									"mat": "Geodesia Astronómica y Matemática",
+									"cond": "R"
+								},
+								{
+									"mat": "Análisis Matemático",
+									"cond": "A"
+								},
+								{
+									"mat": "Topografía III",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Fotogrametría",
+									"cond": "A"
+								},
+								{
+									"mat": "Geodesia Astronómica y Matemática",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Mensura",
+							"codigo": 406,
+							"paraCursar": [
+								{
+									"mat": "Catastro",
+									"cond": "R"
+								},
+								{
+									"mat": "Ordenamiento Territorial",
+									"cond": "R"
+								},
+								{
+									"mat": "Agrimensura Legal II",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Catastro",
+									"cond": "A"
+								},
+								{
+									"mat": "Ordenamiento Territorial",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Valuaciones Inmobiliarias",
+							"codigo": 407,
+							"paraCursar": [
+								{
+									"mat": "Catastro",
+									"cond": "R"
+								},
+								{
+									"mat": "Economía y Gestión Empresarial",
+									"cond": "A"
+								},
+								{
+									"mat": "Agrimensura Legal II",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Catastro",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Cartografía",
+							"codigo": 408,
+							"paraCursar": [
+								{
+									"mat": "Geodesia Astronómica y Matemática",
+									"cond": "R"
+								},
+								{
+									"mat": "Fotogrametría",
+									"cond": "R"
+								},
+								{
+									"mat": "Dibujo Topográfico y Cartográfico",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Geodesia Astronómica y Matemática",
+									"cond": "A"
+								},
+								{
+									"mat": "Fotogrametría",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						}
+					]
+				},
+				{
+					"año": 5,
+					"materias": [
+						{
+							"materia": "Mediciones Especiales",
+							"codigo": 501,
+							"paraCursar": [
+								{
+									"mat": "Geodesia Física y Global",
+									"cond": "R"
+								},
+								{
+									"mat": "Topografía III",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Geodesia Física y Global",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Sistema de Información Territorial",
+							"codigo": 502,
+							"paraCursar": [
+								{
+									"mat": "Catastro",
+									"cond": "R"
+								},
+								{
+									"mat": "Mensura",
+									"cond": "R"
+								},
+								{
+									"mat": "Ordenamiento Territorial",
+									"cond": "R"
+								},
+								{
+									"mat": "Agrimensura Legal II",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Catastro",
+									"cond": "A"
+								},
+								{
+									"mat": "Mensura",
+									"cond": "A"
+								},
+								{
+									"mat": "Ordenamiento Territorial",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Optativa II",
+							"codigo": 503,
+							"paraCursar": [
+								{
+									"mat": "Geodesia Física y Global",
+									"cond": "R"
+								},
+								{
+									"mat": "Geodesia Astronómica y Matemática",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Geodesia Física y Global",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Práctica Profesional Supervisada",
+							"codigo": 504,
+							"paraCursar": [
+								{
+									"mat": "Tener regularizada y aprobada todo 4to año inclusive",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Aprobada todo 4to año inclusive",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Trabajo Final",
+							"codigo": 505,
+							"paraCursar": [
+								{
+									"mat": "Tener regularizada y aprobada todo 4to año inclusive",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Tener aprobadas todas las asignaturas del Plan de Estudios",
+									"cond": "A"
+								}
+							],
 							"planDeEstudio": null,
 							"mesas": []
 						}
@@ -848,10 +1693,20 @@
 					"año": 1,
 					"materias": [
 						{
-							"materia": "materia I",
+							"materia": "",
 							"codigo": 0,
-							"paraCursar": [],
-							"paraRendir": [],
+							"paraCursar": [
+								{
+									"mat": "",
+									"cond": ""
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "",
+									"cond": ""
+								}
+							],
 							"planDeEstudio": null,
 							"mesas": []
 						}
@@ -872,7 +1727,26 @@
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": null,
-							"mesas": []
+							"mesas": [
+								{
+									"fecha": "2024-07-31"
+								},
+								{
+									"fecha": "2024-07-31"
+								},
+								{
+									"fecha": "2024-09-04"
+								},
+								{
+									"fecha": "2024-10-02"
+								},
+								{
+									"fecha": "2024-11-27"
+								},
+								{
+									"fecha": "2024-12-1"
+								}
+							]
 						},
 						{
 							"materia": "Cálculo Diferencial e Integral I",
