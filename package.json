@@ -17,7 +17,6 @@
     "@astrojs/vercel": "^8.0.1",
     "@fontsource/poppins": "^5.1.0",
     "@material/web": "^2.2.0",
-    "@tabler/icons-react-native": "^3.22.0",
     "@types/react": "^19.0.2",
     "@types/react-dom": "^19.0.2",
     "@vercel/analytics": "^1.4.1",
