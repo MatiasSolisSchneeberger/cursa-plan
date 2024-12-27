@@ -10,7 +10,8 @@ interface carrera {
 
 interface cursada {
     año: number;
-    materias: Array<materia>;
+    materias?: Array<materia>;
+    orientaciones?: Array<orientacion>;
 }
 
 interface materia {
@@ -22,9 +23,14 @@ interface materia {
     mesas: Array<mesa> | null;
 }
 
-interface condicion{
-	mat: string
-	cond: "R" | "A" | null,
+export interface Orientacion {
+    nombre: string;
+    materias: Array<materia>;
+}
+
+interface condicion {
+    mat: string
+    cond: "R" | "A" | null, // "R" = Regular, "A" = Aprobada
 }
 
 interface mesa {

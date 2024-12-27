@@ -13,6 +13,8 @@
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": null,
+							"mesas": [],
+							"planDeEstudio": null,
 							"mesas": [
 								{
 									"fecha": "2024-07-31"
@@ -821,10 +823,585 @@
 					"año": 5,
 					"materias": [
 						{
-							"materia": "materia I",
-							"codigo": 0,
+							"materia": "Bacteriología y Micología Clínica",
+							"codigo": 501,
+							"paraCursar": [
+								{
+									"mat": "Fisiopatología",
+									"cond": "R"
+								},
+								{
+									"mat": "Inmunología Clínica",
+									"cond": "R"
+								},
+								{
+									"mat": "Microbiología General",
+									"cond": "A"
+								},
+								{
+									"mat": "Genética y Biología Molecular",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Fisiopatología",
+									"cond": "A"
+								},
+								{
+									"mat": "Inmunología Clínica",
+									"cond": "A"
+								},
+								{
+									"mat": "Microbiología General",
+									"cond": "A"
+								},
+								{
+									"mat": "Genética y Biología Molecular",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Química Clínica",
+							"codigo": 502,
+							"paraCursar": [
+								{
+									"mat": "Fisiopatología",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Fisiología Humana",
+									"cond": "A"
+								},
+								{
+									"mat": "Fisiopatología",
+									"cond": "A"
+								},
+								{
+									"mat": "Bioestadística",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Biológica II",
+									"cond": "A"
+								},
+								{
+									"mat": "Genética",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Analítica Instrumental",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Toxicología y Química Legal",
+							"codigo": 503,
+							"paraCursar": [
+								{
+									"mat": "Fisiopatología",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Fisiopatología",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Orgánica II",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Analítica Instrumental",
+									"cond": "A"
+								},
+								{
+									"mat": "Farmacología",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Ética Profesional",
+							"codigo": 504,
+							"paraCursar": [
+								{
+									"mat": "50% de la carrera",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "50% de la carrera",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Hematología Clínica",
+							"codigo": 505,
+							"paraCursar": [
+								{
+									"mat": "Bioestadística",
+									"cond": "R"
+								},
+								{
+									"mat": "Fisiopatología",
+									"cond": "R"
+								},
+								{
+									"mat": "Inmunología Clínica",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Bioestadística",
+									"cond": "A"
+								},
+								{
+									"mat": "Genética y Biología Molecular",
+									"cond": "A"
+								},
+								{
+									"mat": "Fisiopatología",
+									"cond": "A"
+								},
+								{
+									"mat": "Inmunología Clínica",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Endocrinología y Monitoreo de Drogas",
+							"codigo": 506,
+							"paraCursar": [
+								{
+									"mat": "Fisiopatología",
+									"cond": "R"
+								},
+								{
+									"mat": "Inmunología Clínica",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Fisiopatología",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Analítica Instrumental",
+									"cond": "A"
+								},
+								{
+									"mat": "Farmacología",
+									"cond": "A"
+								},
+								{
+									"mat": "Inmunología Clínica",
+									"cond": "A"
+								},
+								{
+									"mat": "Genética y Biología Molecular",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Gestión de Laboratorio",
+							"codigo": 507,
+							"paraCursar": [
+								{
+									"mat": "Química Clínica",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Química Clínica",
+									"cond": "A"
+								},
+								{
+									"mat": "Bioestadística",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Analítica Instrumental",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Epistemología y Metodología de la Investigación",
+							"codigo": 508,
+							"paraCursar": [
+								{
+									"mat": "Toxicología y Química Legal",
+									"cond": "R"
+								},
+								{
+									"mat": "Bromatología y Nutrición",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Bromatología y Nutrición",
+									"cond": "R"
+								},
+								{
+									"mat": "Toxicología y Química Legal",
+									"cond": "R"
+								},
+								{
+									"mat": "Fisiopatología",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Optativa I",
+							"codigo": 509,
 							"paraCursar": [],
 							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Optativa II",
+							"codigo": 510,
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "(Optativa) Genética y Biología Molecular Aplicada",
+							"codigo": 511,
+							"paraCursar": [
+								{
+									"mat": "Qca Biológica II",
+									"cond": "A"
+								},
+								{
+									"mat": "Genética y Biología Molecular",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Qca Biológica II",
+									"cond": "A"
+								},
+								{
+									"mat": "Genética y Biología Molecular",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "(Optativa) Epidemiología y Salud Pública",
+							"codigo": 512,
+							"paraCursar": [
+								{
+									"mat": "Parasitología Humana",
+									"cond": "R"
+								},
+								{
+									"mat": "Bacteriología y Micología Clínica",
+									"cond": "R"
+								},
+								{
+									"mat": "Virología Clínica",
+									"cond": "R"
+								},
+								{
+									"mat": "Química Clínica",
+									"cond": "R"
+								},
+								{
+									"mat": "Bioestadística",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Parasitología Humana",
+									"cond": "R"
+								},
+								{
+									"mat": "Bacteriología y Micología Clínica",
+									"cond": "R"
+								},
+								{
+									"mat": "Virología Clínica",
+									"cond": "R"
+								},
+								{
+									"mat": "Química Clínica",
+									"cond": "R"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "(Optativa) Bioquímica de los Alimentos",
+							"codigo": 513,
+							"paraCursar": [
+								{
+									"mat": "Bromatología y Nutrición",
+									"cond": "R"
+								},
+								{
+									"mat": "Qca Biológica II",
+									"cond": "A"
+								},
+								{
+									"mat": "Qca Analítica Instrumental Clínica",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Bromatología y Nutrición",
+									"cond": "R"
+								},
+								{
+									"mat": "Qca Biológica II",
+									"cond": "A"
+								},
+								{
+									"mat": "Qca Analítica Instrumental",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "(Optativa) Métodos de Conservación de Alimentos",
+							"codigo": 514,
+							"paraCursar": [
+								{
+									"mat": "Bromatología y Nutrición",
+									"cond": "R"
+								},
+								{
+									"mat": "Qca Biológica II",
+									"cond": "A"
+								},
+								{
+									"mat": "Qca Analítica Instrumental",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Bromatología y Nutrición",
+									"cond": "R"
+								},
+								{
+									"mat": "Qca Biológica II",
+									"cond": "A"
+								},
+								{
+									"mat": "Qca Analítica Instrumental",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "(Optativa) Urgencias Hospitalarias",
+							"codigo": 515,
+							"paraCursar": [
+								{
+									"mat": "Química Clínica",
+									"cond": "R"
+								},
+								{
+									"mat": "Fisiopatología",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Química Clínica",
+									"cond": "R"
+								},
+								{
+									"mat": "Fisiopatología",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "(Optativa) Determinación de Estructuras Orgánicas",
+							"codigo": 516,
+							"paraCursar": [
+								{
+									"mat": "Qca Org II",
+									"cond": "A"
+								},
+								{
+									"mat": "Qca Analítica Instrumental",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Qca Org II",
+									"cond": "A"
+								},
+								{
+									"mat": "Qca Analítica Instrumental",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "(Optativa) Medio Interno y Nefrología",
+							"codigo": 517,
+							"paraCursar": [
+								{
+									"mat": "Química Clínica",
+									"cond": "R"
+								},
+								{
+									"mat": "Fitopatología",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Química Clínica",
+									"cond": "R"
+								},
+								{
+									"mat": "Fitopatología",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						}
+					]
+				},
+				{
+					"año": 6,
+					"materias": [
+						{
+							"materia": "Práctica Hospitalaria",
+							"codigo": 601,
+							"paraCursar": [
+								{
+									"mat": "Hematología Clínica",
+									"cond": "R"
+								},
+								{
+									"mat": "Bacteriología y Micología Clínica",
+									"cond": "R"
+								},
+								{
+									"mat": "Endocrinología y Monitoreo de Drogas",
+									"cond": "R"
+								},
+								{
+									"mat": "Gestión de Laboratorio",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Virología Clínica",
+									"cond": "A"
+								},
+								{
+									"mat": "Inmunología Clínica",
+									"cond": "A"
+								},
+								{
+									"mat": "Parasitología Humana",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Clínica",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Prácticas Electivas",
+							"codigo": 602,
+							"paraCursar": [
+								{
+									"mat": "Hematología Clínica",
+									"cond": "R"
+								},
+								{
+									"mat": "Bacteriología y Micología Clínica",
+									"cond": "R"
+								},
+								{
+									"mat": "Endocrinología y Monitoreo de Drogas",
+									"cond": "R"
+								},
+								{
+									"mat": "Gestión de Laboratorio",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Virología Clínica",
+									"cond": "A"
+								},
+								{
+									"mat": "Inmunología Clínica",
+									"cond": "A"
+								},
+								{
+									"mat": "Parasitología Humana",
+									"cond": "A"
+								},
+								{
+									"mat": "Química Clínica",
+									"cond": "A"
+								}
+							],
 							"planDeEstudio": null,
 							"mesas": []
 						}
@@ -2716,6 +3293,50 @@
 							"mesas": []
 						}
 					]
+				},
+				{
+					"año": 4,
+					"orientaciones": [
+						{
+							"nombre": "Botánica",
+							"materias": [
+								{
+									"materia": "Fisiología Vegetal",
+									"codigo": 501,
+									"paraCursar": [],
+									"paraRendir": [],
+									"planDeEstudio": null,
+									"mesas": []
+								}
+							]
+						},
+						{
+							"nombre": "Zoología",
+							"materias": [
+								{
+									"materia": "Anatomía Comparada",
+									"codigo": 601,
+									"paraCursar": [],
+									"paraRendir": [],
+									"planDeEstudio": null,
+									"mesas": []
+								}
+							]
+						},
+						{
+							"nombre": "Paleontología",
+							"materias": [
+								{
+									"materia": "Fósiles y Evolución",
+									"codigo": 701,
+									"paraCursar": [],
+									"paraRendir": [],
+									"planDeEstudio": null,
+									"mesas": []
+								}
+							]
+						}
+					]
 				}
 			]
 		},
@@ -3500,9 +4121,429 @@
 					"año": 1,
 					"materias": [
 						{
-							"materia": "materia I",
-							"codigo": 0,
+							"materia": "Álgebra I",
 							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Elementos de Computación",
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Competencias Lingüístico-Comunicativas",
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Álgebra Lineal y Geometría",
+							"paraCursar": [
+								{
+									"mat": "Álgebra I",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Álgebra I",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Análisis Matemático I",
+							"paraCursar": [
+								{
+									"mat": "Álgebra I",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Álgebra I",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Taller de Iniciación a la Práctica Docente",
+							"paraCursar": [
+								{
+									"mat": "Álgebra I",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Optativa (seminario)",
+							"paraCursar": [
+								{
+									"mat": "Álgebra I",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						}
+					]
+				},
+				{
+					"año": 2,
+					"materias": [
+						{
+							"materia": "Análisis Matemático II",
+							"paraCursar": [
+								{
+									"mat": "Análisis Matemático I",
+									"cond": "R"
+								},
+								{
+									"mat": "Álgebra Lineal y Geometría",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Álgebra I",
+									"cond": "A"
+								},
+								{
+									"mat": "Análisis Matemático I",
+									"cond": "A"
+								},
+								{
+									"mat": "Álgebra Lineal y Geometría",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Pedagogía",
+							"paraCursar": [
+								{
+									"mat": "Competencias Lingüístico-Comunicativas",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Competencias Lingüístico-Comunicativas",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Complementos del Álgebra Lineal",
+							"paraCursar": [
+								{
+									"mat": "Álgebra II",
+									"cond": "R"
+								},
+								{
+									"mat": "Análisis Matemático II",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Álgebra II",
+									"cond": "A"
+								},
+								{
+									"mat": "Álgebra Lineal y Geometría",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Cálculo Numérico",
+							"paraCursar": [
+								{
+									"mat": "Análisis Matemático II",
+									"cond": "R"
+								},
+								{
+									"mat": "Elementos de Computación",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Análisis Matemático II",
+									"cond": "A"
+								},
+								{
+									"mat": "Elementos de Computación",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Psicología del Aprendizaje y del Desarrollo",
+							"paraCursar": [
+								{
+									"mat": "Competencias Lingüístico-Comunicativas",
+									"cond": "R"
+								},
+								{
+									"mat": "Pedagogía",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Competencias Lingüístico-Comunicativas",
+									"cond": "A"
+								},
+								{
+									"mat": "Pedagogía",
+									"cond": "R"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						}
+					]
+				},
+				{
+					"año": 3,
+					"materias": [
+						{
+							"materia": "Física (Mecánica)",
+							"paraCursar": [
+								{
+									"mat": "Análisis Matemático II",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Análisis Matemático II",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Estadística Descriptiva",
+							"paraCursar": [
+								{
+									"mat": "Análisis Matemático II",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Análisis Matemático II",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Historia de la Matemática",
+							"paraCursar": [
+								{
+									"mat": "Álgebra II",
+									"cond": "R"
+								},
+								{
+									"mat": "Álgebra Lineal y Geometría",
+									"cond": "R"
+								},
+								{
+									"mat": "Análisis Matemático I",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Álgebra II",
+									"cond": "A"
+								},
+								{
+									"mat": "Álgebra Lineal y Geometría",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Probabilidad y Estadística",
+							"paraCursar": [
+								{
+									"mat": "Análisis Matemático II",
+									"cond": "R"
+								},
+								{
+									"mat": "Estadística Descriptiva",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Estadística Descriptiva",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Geometría Métrica y Trigonométrica",
+							"paraCursar": [
+								{
+									"mat": "Álgebra Lineal y Geometría",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Álgebra I",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Didáctica",
+							"paraCursar": [
+								{
+									"mat": "Psicología del Aprendizaje y del Desarrollo",
+									"cond": "A"
+								},
+								{
+									"mat": "Taller de Iniciación a la Práctica Docente",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Psicología del Aprendizaje y del Desarrollo",
+									"cond": "A"
+								},
+								{
+									"mat": "Análisis Matemático II",
+									"cond": "R"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						}
+					]
+				},
+				{
+					"año": 4,
+					"materias": [
+						{
+							"materia": "Análisis Matemático III",
+							"paraCursar": [
+								{
+									"mat": "Análisis Matemático II",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Complementos del Álgebra Lineal",
+									"cond": "R"
+								},
+								{
+									"mat": "Análisis Matemático II",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Taller de Problemas Matemáticos",
+							"paraCursar": [
+								{
+									"mat": "Didáctica",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Matemática Financiera e Investigación Operativa",
+							"paraCursar": [
+								{
+									"mat": "Probabilidad y Estadística",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Probabilidad y Estadística",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Epistemología y Metodología de la Investigación",
+							"paraCursar": [
+								{
+									"mat": "Física (Mecánica)",
+									"cond": "R"
+								},
+								{
+									"mat": "Geometría Métrica y Trigonométrica",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Álgebra II",
+									"cond": "A"
+								},
+								{
+									"mat": "Historia de la Matemática",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Didáctica de la Matemática y Pasantía",
+							"paraCursar": [
+								{
+									"mat": "Didáctica",
+									"cond": "R"
+								}
+							],
 							"paraRendir": [],
 							"planDeEstudio": null,
 							"mesas": []
@@ -3523,6 +4564,8 @@
 							"codigo": 0,
 							"paraCursar": [],
 							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": [],
 							"planDeEstudio": null,
 							"mesas": []
 						}
