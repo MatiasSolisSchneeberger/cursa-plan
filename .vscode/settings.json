@@ -35,5 +35,6 @@
         "titleBar.activeForeground": "#fcfcfe"
     },
     "IDX.aI.enableInlineCompletion": true,
-    "IDX.aI.enableCodebaseIndexing": true
+    "IDX.aI.enableCodebaseIndexing": true,
+    "cSpell.language": "en,es,es-ES"
 }

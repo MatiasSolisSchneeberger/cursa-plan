@@ -23,7 +23,7 @@ interface materia {
     mesas: Array<mesa> | null;
 }
 
-export interface Orientacion {
+export interface orientacion {
     nombre: string;
     materias: Array<materia>;
 }

@@ -210,10 +210,77 @@
 | 5   | Optativa IV (Ingeniería Clínica)                            | R: Procesamiento Digital de Bísemeles; Modelos y Simulación de Sistemas Fisiológicos                     | A: Procesamiento Digital de Bísemeles; Modelos y Simulación de Sistemas Fisiológicos                  |
 
 ---
+**Lic. Biología**
+| Año | Asignatura                                                                  | PARA CURSAR                                                                        | PARA RENDIR                                               |
+| --- | --------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | --------------------------------------------------------- |
+| 1   | Matemática                                                                  | SIN CORRELATIVIDADES                                                               | SIN CORRELATIVIDADES                                      |
+| 1   | Introducción a la Biología                                                  | SIN CORRELATIVIDADES                                                               | SIN CORRELATIVIDADES                                      |
+| 1   | Química General                                                             | SIN CORRELATIVIDADES                                                               | SIN CORRELATIVIDADES                                      |
+| 1   | Física General y Biológica                                                  | R: Matemática                                                                      | A: Matemática                                             |
+| 1   | Química Biológica                                                           | R: Química General                                                                 | A: Química General                                        |
+| 1   | Geología                                                                    | R: Química General                                                                 | A: Química General                                        |
+|     |                                                                             |                                                                                    |                                                           |
+| 2   | Biología Celular y Molecular                                                | A: Química General; Introducción a la Biología; R: Física General y Biológica      | A: Física General y Biológica                             |
+| 2   | Bioestadística                                                              | A: Matemática                                                                      |
+| 2   | Biología de los Invertebrados                                               | A: Introducción a la Biología; R: Biología Celular y Molecular                     |
+| 2   | Morfología Vegetal                                                          | A: Introducción a la Biología; R: Biología Celular y Molecular                     | A: Biología Celular y Molecular                           |
+|     |                                                                             |                                                                                    |                                                           |
+| 3   | Fisiología Animal                                                           | R: Biología de los Invertebrados                                                   | A: Biología de los Invertebrados                          |
+| 3   | Fisiología Vegetal                                                          | A: Física General y Biológica, Biología Celular y Molecular; R: Morfología vegetal | A: Morfología Vegetal                                     |
+| 3   | Genética                                                                    | A: Biología Celular y Molecular                                                    |
+| 3   | Ecología                                                                    | A: Biología de los Invertebrados                                                   |
+| 3   | Diversidad Vegetal                                                          | A: Morfología Vegetal                                                              |
+| 3   | Biología de los Cordados                                                    | R: Biología de los Invertebrados                                                   | A: Biología de los Invertebrados                          |
+| 3   | * PRUEBA DE IDIOMA                                                          | SIN CORRELATIVIDADES                                                               | SIN CORRELATIVIDADES                                      |
+|     | **ORIENTACIÓN BOTÁNICA**                                                    |                                                                                    |                                                           |
+| 4   | Paleontología                                                               | R: Biología de los Cordados, Diversidad Vegetal; A: Geología                       | A: Biología de los Cordados, Diversidad Vegetal           |
+| 4   | Epistemología y Metodología de la Investigación                             | R: Diversidad Vegetal, Biología de los Cordados, Genética                          | R: Diversidad Vegetal, Biología de los Cordados, Genética |
+| 4   | Biotaxonomia de Briofitas y Pteridofitas                                    | R: Diversidad Vegetal                                                              | A: Diversidad Vegetal                                     |
+| 4   | Biotaxonomia de Espermatofitas                                              | A: Diversidad Vegetal; R: Biotaxonomia de Briofitas y Pteridofitas                 | A: Biotaxonomia de Briofitas y Pteridofitas               |
+|     |                                                                             |                                                                                    |                                                           |
+| 5   | Ecología Vegetal                                                            | R: Ecología; Diversidad Vegetal                                                    | A: Ecología; Diversidad Vegetal                           |
+| 5   | Ficología                                                                   | R: Diversidad Vegetal                                                              | A: Diversidad Vegetal                                     |
+| 5   | Micología                                                                   | R: Diversidad Vegetal                                                              | A: Diversidad Vegetal                                     |
+|     | **ORIENTACIÓN GENÉTICA**                                                    |                                                                                    |                                                           |
+| 4   | Paleontología                                                               | R: Biología de los Cordados, Diversidad Vegetal; A: Geología                       | A: Biología de los Cordados, Diversidad Vegetal           |
+| 4   | Citogenética                                                                | R: Genética                                                                        | A: Genética                                               |
+| 4   | Epistemología y Metodología de la Investigación                             | R: Diversidad Vegetal, Biología de los Cordados, Genética                          | R: Diversidad Vegetal, Biología de los Cordados, Genética |
+|     |                                                                             |                                                                                    |                                                           |
+| 5   | Genética Molecular                                                          | R: Citogenética                                                                    | A: Citogenética                                           |
+| 5   | Genética de Poblaciones                                                     | A: Ecología, Genética                                                              |
+| 5   | Genética Evolutiva                                                          | R: Citogenética A: Citogenética                                                    |
+|     | **ORIENTACIÓN PALEONTOLOGÍA**                                               |                                                                                    |                                                           |
+| 4   | Geología Histórica                                                          | A: Geología                                                                        |
+| 4   | Paleobotánica                                                               | R: Paleontología                                                                   | A: Paleontología                                          |
+| 4   | Paleontología                                                               | R: Biología de los Cordados, Diversidad Vegetal; A: Geología                       | A: Biología de los Cordados, Diversidad Vegetal           |
+| 4   | Epistemología y Metodología de la Investigación                             | R: Diversidad Vegetal, Biología de los Cordados, Genética                          | R: Diversidad Vegetal, Biología de los Cordados, Genética |
+| 4   | Paleoinvertebrados                                                          | R: Paleontología                                                                   | A: Paleontología                                          |
+|     |                                                                             |                                                                                    |                                                           |
+| 5   | Sedimentología                                                              | A: Geología                                                                        |
+| 5   | Paleovertebrados                                                            | A: Paleontología                                                                   | A: Paleontología                                          |
+| 5   | Paleobiogeografía                                                           | R: Geología Histórica, Sedimentología                                              |
+|     | **ORIENTACIÓN ZOOLOGÍA**                                                    |                                                                                    |                                                           |
+| 4   | Paleontología                                                               | R: Biología de los Cordados, Diversidad Vegetal; A: Geología                       | A: Biología de los Cordados, Diversidad Vegetal           |
+| 4   | Anatomía Comparada de los Cordados                                          | A: Introducción a la Biología                                                      |
+| 4   | Embriología Animal                                                          | R: Biología de los Cordados                                                        | R: Embriología Animal                                     |
+| 4   | Histología Animal                                                           | R: Embriología Animal                                                              |
+|     |                                                                             |                                                                                    |                                                           |
+| 5   | Ecología Animal                                                             | A: Biología de los Cordados, Estadística; R: Ecología                              | A: Ecología                                               |
+| 5   | Biología de los Artrópodos                                                  | A: Biología de los Invertebrados                                                   | A: Biología de los Invertebrados                          |
+|     | **ORIENTACIÓN ECOLOGÍA** (Necesario aprobar Geología y Prueba de Idioma)    |                                                                                    |                                                           |
+| 4   | Paleontología                                                               | R: Biología de los Cordados, Diversidad Vegetal; A: Geología                       | A: Biología de los Cordados, Diversidad Vegetal           |
+| 4   | Epistemología y Metodología de la Investigación                             | R: Diversidad Vegetal, Biología de los Cordados, Genética                          | R: Diversidad Vegetal, Biología de los Cordados, Genética |
+| 4   | Ecología Animal                                                             | A: Biología de los Cordados, Estadística; R: Ecología                              | A: Ecología                                               |
+| 4   | Ecología Vegetal                                                            | R: Ecología, Diversidad Vegetal                                                    | A: Ecología, Diversidad Vegetal                           |
+| 4   | Ecología de la las Poblaciones                                              | A: Bioestadística; R: Ecología Animal, Ecología Vegetal                            | A: Ecología Animal, Ecología Vegetal                      |
+|     |                                                                             |                                                                                    |                                                           |
+| 5   | Ecología de Comunidades                                                     | A: Ecología Animal, Ecología Vegetal; R: Ecología de Poblaciones                   | A: Ecología de Poblaciones                                |
+| 5   | Limnología                                                                  | A: Ecología de Poblaciones; R: Ecología de Comunidades                             | A: Ecología de Comunidades                                |
+| 5   | Manejo de Recursos Naturales                                                | A : Ecología de Poblaciones; R: Ecología de Comunidades                            | A: Ecología de Comunidades                                |
+| 5   | TRABAJO FINAL DE GRADUACIÓN PARA INICIAR SE NECESITAN 18 MATERIAS APROBADAS |
+
 
 ---
-
-
 **Prof. Matematica**
 | Año | Asignatura                                      | PARA CURSAR                                                                                                                         | PARA RENDIR                                                                                                                                                          |
 | --- | ----------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------- |

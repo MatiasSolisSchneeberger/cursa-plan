@@ -13,8 +13,6 @@
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": null,
-							"mesas": [],
-							"planDeEstudio": null,
 							"mesas": [
 								{
 									"fecha": "2024-07-31"
@@ -3285,8 +3283,258 @@
 					"año": 1,
 					"materias": [
 						{
-							"materia": "materia I",
-							"codigo": 0,
+							"materia": "Matemática",
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Introducción a la Biología",
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Química General",
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Física General y Biológica",
+							"paraCursar": [
+								{
+									"mat": "Matemática",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Matemática",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Química Biológica",
+							"paraCursar": [
+								{
+									"mat": "Química General",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Química General",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Geología",
+							"paraCursar": [
+								{
+									"mat": "Química General",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Química General",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						}
+					]
+				},
+				{
+					"año": 2,
+					"materias": [
+						{
+							"materia": "Biología Celular y Molecular",
+							"paraCursar": [
+								{
+									"mat": "Química General",
+									"cond": "A"
+								},
+								{
+									"mat": "Introducción a la Biología",
+									"cond": "A"
+								},
+								{
+									"mat": "Física General y Biológica",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Física General y Biológica",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Bioestadística",
+							"paraCursar": [
+								{
+									"mat": "Matemática",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Biología de los Invertebrados",
+							"paraCursar": [
+								{
+									"mat": "Introducción a la Biología",
+									"cond": "A"
+								},
+								{
+									"mat": "Biología Celular y Molecular",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Morfología Vegetal",
+							"paraCursar": [
+								{
+									"mat": "Introducción a la Biología",
+									"cond": "A"
+								},
+								{
+									"mat": "Biología Celular y Molecular",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Biología Celular y Molecular",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						}
+					]
+				},
+				{
+					"año": 3,
+					"materias": [
+						{
+							"materia": "Fisiología Animal",
+							"paraCursar": [
+								{
+									"mat": "Biología de los Invertebrados",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Biología de los Invertebrados",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Fisiología Vegetal",
+							"paraCursar": [
+								{
+									"mat": "Física General y Biológica",
+									"cond": "A"
+								},
+								{
+									"mat": "Biología Celular y Molecular",
+									"cond": "A"
+								},
+								{
+									"mat": "Morfología Vegetal",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Morfología Vegetal",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Genética",
+							"paraCursar": [
+								{
+									"mat": "Biología Celular y Molecular",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Ecología",
+							"paraCursar": [
+								{
+									"mat": "Biología de los Invertebrados",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Diversidad Vegetal",
+							"paraCursar": [
+								{
+									"mat": "Morfología Vegetal",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Biología de los Cordados",
+							"paraCursar": [
+								{
+									"mat": "Biología de los Invertebrados",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Biología de los Invertebrados",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Prueba de Idioma",
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": null,
@@ -3301,9 +3549,70 @@
 							"nombre": "Botánica",
 							"materias": [
 								{
-									"materia": "Fisiología Vegetal",
-									"codigo": 501,
-									"paraCursar": [],
+									"materia": "Paleontología",
+									"paraCursar": [
+										{
+											"mat": "Biología de los Cordados",
+											"cond": "R"
+										},
+										{
+											"mat": "Diversidad Vegetal",
+											"cond": "R"
+										}
+									],
+									"paraRendir": [
+										{
+											"mat": "Geología",
+											"cond": "A"
+										}
+									],
+									"planDeEstudio": null,
+									"mesas": []
+								},
+								{
+									"materia": "Epistemología y Metodología de la Investigación",
+									"paraCursar": [
+										{
+											"mat": "Diversidad Vegetal",
+											"cond": "R"
+										},
+										{
+											"mat": "Biología de los Cordados",
+											"cond": "R"
+										},
+										{
+											"mat": "Genética",
+											"cond": "R"
+										}
+									],
+									"paraRendir": [],
+									"planDeEstudio": null,
+									"mesas": []
+								},
+								{
+									"materia": "Biotaxonomia de Briofitas y Pteridofitas",
+									"paraCursar": [
+										{
+											"mat": "Diversidad Vegetal",
+											"cond": "R"
+										}
+									],
+									"paraRendir": [],
+									"planDeEstudio": null,
+									"mesas": []
+								},
+								{
+									"materia": "Biotaxonomia de Espermatofitas",
+									"paraCursar": [
+										{
+											"mat": "Diversidad Vegetal",
+											"cond": "A"
+										},
+										{
+											"mat": "Biotaxonomia de Briofitas y Pteridofitas",
+											"cond": "R"
+										}
+									],
 									"paraRendir": [],
 									"planDeEstudio": null,
 									"mesas": []
@@ -3311,12 +3620,57 @@
 							]
 						},
 						{
-							"nombre": "Zoología",
+							"nombre": "Genética",
 							"materias": [
 								{
-									"materia": "Anatomía Comparada",
-									"codigo": 601,
-									"paraCursar": [],
+									"materia": "Paleontología",
+									"paraCursar": [
+										{
+											"mat": "Biología de los Cordados",
+											"cond": "R"
+										},
+										{
+											"mat": "Diversidad Vegetal",
+											"cond": "R"
+										}
+									],
+									"paraRendir": [
+										{
+											"mat": "Geología",
+											"cond": "A"
+										}
+									],
+									"planDeEstudio": null,
+									"mesas": []
+								},
+								{
+									"materia": "Citogenética",
+									"paraCursar": [
+										{
+											"mat": "Genética",
+											"cond": "R"
+										}
+									],
+									"paraRendir": [],
+									"planDeEstudio": null,
+									"mesas": []
+								},
+								{
+									"materia": "Epistemología y Metodología de la Investigación",
+									"paraCursar": [
+										{
+											"mat": "Diversidad Vegetal",
+											"cond": "R"
+										},
+										{
+											"mat": "Biología de los Cordados",
+											"cond": "R"
+										},
+										{
+											"mat": "Genética",
+											"cond": "R"
+										}
+									],
 									"paraRendir": [],
 									"planDeEstudio": null,
 									"mesas": []
@@ -3327,10 +3681,548 @@
 							"nombre": "Paleontología",
 							"materias": [
 								{
-									"materia": "Fósiles y Evolución",
-									"codigo": 701,
+									"materia": "Geología Histórica",
 									"paraCursar": [],
+									"paraRendir": [
+										{
+											"mat": "Geología",
+											"cond": "A"
+										}
+									],
+									"planDeEstudio": null,
+									"mesas": []
+								},
+								{
+									"materia": "Paleobotánica",
+									"paraCursar": [
+										{
+											"mat": "Paleontología",
+											"cond": "R"
+										}
+									],
+									"paraRendir": [
+										{
+											"mat": "Paleontología",
+											"cond": "A"
+										}
+									],
+									"planDeEstudio": null,
+									"mesas": []
+								},
+								{
+									"materia": "Paleontología",
+									"paraCursar": [
+										{
+											"mat": "Biología de los Cordados",
+											"cond": "R"
+										},
+										{
+											"mat": "Diversidad Vegetal",
+											"cond": "R"
+										}
+									],
+									"paraRendir": [
+										{
+											"mat": "Geología",
+											"cond": "A"
+										}
+									],
+									"planDeEstudio": null,
+									"mesas": []
+								},
+								{
+									"materia": "Epistemología y Metodología de la Investigación",
+									"paraCursar": [
+										{
+											"mat": "Diversidad Vegetal",
+											"cond": "R"
+										},
+										{
+											"mat": "Biología de los Cordados",
+											"cond": "R"
+										},
+										{
+											"mat": "Genética",
+											"cond": "R"
+										}
+									],
 									"paraRendir": [],
+									"planDeEstudio": null,
+									"mesas": []
+								},
+								{
+									"materia": "Paleoinvertebrados",
+									"paraCursar": [
+										{
+											"mat": "Paleontología",
+											"cond": "R"
+										}
+									],
+									"paraRendir": [
+										{
+											"mat": "Paleontología",
+											"cond": "A"
+										}
+									],
+									"planDeEstudio": null,
+									"mesas": []
+								}
+							]
+						},
+						{
+							"nombre": "Zoología",
+							"materias": [
+								{
+									"materia": "Paleontología",
+									"paraCursar": [
+										{
+											"mat": "Biología de los Cordados",
+											"cond": "R"
+										},
+										{
+											"mat": "Diversidad Vegetal",
+											"cond": "R"
+										}
+									],
+									"paraRendir": [
+										{
+											"mat": "Geología",
+											"cond": "A"
+										},
+										{
+											"mat": "Biología de los Cordados",
+											"cond": "A"
+										},
+										{
+											"mat": "Diversidad Vegetal",
+											"cond": "A"
+										}
+									],
+									"planDeEstudio": null,
+									"mesas": []
+								},
+								{
+									"materia": "Anatomía Comparada de los Cordados",
+									"paraCursar": [],
+									"paraRendir": [
+										{
+											"mat": "Introducción a la Biología",
+											"cond": "A"
+										}
+									],
+									"planDeEstudio": null,
+									"mesas": []
+								},
+								{
+									"materia": "Embriología Animal",
+									"paraCursar": [
+										{
+											"mat": "Biología de los Cordados",
+											"cond": "R"
+										}
+									],
+									"paraRendir": [
+										{
+											"mat": "Embriología Animal",
+											"cond": "R"
+										}
+									],
+									"planDeEstudio": null,
+									"mesas": []
+								},
+								{
+									"materia": "Histología Animal",
+									"paraCursar": [
+										{
+											"mat": "Embriología Animal",
+											"cond": "R"
+										}
+									],
+									"paraRendir": [],
+									"planDeEstudio": null,
+									"mesas": []
+								}
+							]
+						},
+						{
+							"nombre": "Ecología",
+							"materias": [
+								{
+									"materia": "Paleontología",
+									"paraCursar": [
+										{
+											"mat": "Biología de los Cordados",
+											"cond": "R"
+										},
+										{
+											"mat": "Diversidad Vegetal",
+											"cond": "R"
+										}
+									],
+									"paraRendir": [
+										{
+											"mat": "Geología",
+											"cond": "A"
+										}
+									],
+									"planDeEstudio": null,
+									"mesas": []
+								},
+								{
+									"materia": "Epistemología y Metodología de la Investigación",
+									"paraCursar": [
+										{
+											"mat": "Diversidad Vegetal",
+											"cond": "R"
+										},
+										{
+											"mat": "Biología de los Cordados",
+											"cond": "R"
+										},
+										{
+											"mat": "Genética",
+											"cond": "R"
+										}
+									],
+									"paraRendir": [],
+									"planDeEstudio": null,
+									"mesas": []
+								},
+								{
+									"materia": "Ecología Animal",
+									"paraCursar": [
+										{
+											"mat": "Biología de los Cordados",
+											"cond": "A"
+										},
+										{
+											"mat": "Estadística",
+											"cond": "A"
+										},
+										{
+											"mat": "Ecología",
+											"cond": "R"
+										}
+									],
+									"paraRendir": [
+										{
+											"mat": "Ecología",
+											"cond": "A"
+										}
+									],
+									"planDeEstudio": null,
+									"mesas": []
+								},
+								{
+									"materia": "Ecología Vegetal",
+									"paraCursar": [
+										{
+											"mat": "Ecología",
+											"cond": "R"
+										},
+										{
+											"mat": "Diversidad Vegetal",
+											"cond": "R"
+										}
+									],
+									"paraRendir": [
+										{
+											"mat": "Ecología",
+											"cond": "A"
+										},
+										{
+											"mat": "Diversidad Vegetal",
+											"cond": "A"
+										}
+									],
+									"planDeEstudio": null,
+									"mesas": []
+								},
+								{
+									"materia": "Ecología de las Poblaciones",
+									"paraCursar": [
+										{
+											"mat": "Bioestadística",
+											"cond": "A"
+										},
+										{
+											"mat": "Ecología Animal",
+											"cond": "R"
+										},
+										{
+											"mat": "Ecología Vegetal",
+											"cond": "R"
+										}
+									],
+									"paraRendir": [
+										{
+											"mat": "Ecología Animal",
+											"cond": "A"
+										},
+										{
+											"mat": "Ecología Vegetal",
+											"cond": "A"
+										}
+									],
+									"planDeEstudio": null,
+									"mesas": []
+								}
+							]
+						}
+					]
+				},
+				{
+					"año": 5,
+					"orientaciones": [
+						{
+							"nombre": "Botánica",
+							"materias": [
+								{
+									"materia": "Ecología Vegetal",
+									"paraCursar": [
+										{
+											"mat": "Ecología",
+											"cond": "R"
+										},
+										{
+											"mat": "Diversidad Vegetal",
+											"cond": "R"
+										}
+									],
+									"paraRendir": [],
+									"planDeEstudio": null,
+									"mesas": []
+								},
+								{
+									"materia": "Ficología",
+									"paraCursar": [
+										{
+											"mat": "Diversidad Vegetal",
+											"cond": "R"
+										}
+									],
+									"paraRendir": [],
+									"planDeEstudio": null,
+									"mesas": []
+								},
+								{
+									"materia": "Micología",
+									"paraCursar": [
+										{
+											"mat": "Diversidad Vegetal",
+											"cond": "R"
+										}
+									],
+									"paraRendir": [],
+									"planDeEstudio": null,
+									"mesas": []
+								}
+							]
+						},
+						{
+							"nombre": "Genética",
+							"materias": [
+								{
+									"materia": "Genética Molecular",
+									"paraCursar": [
+										{
+											"mat": "Citogenética",
+											"cond": "R"
+										}
+									],
+									"paraRendir": [],
+									"planDeEstudio": null,
+									"mesas": []
+								},
+								{
+									"materia": "Genética de Poblaciones",
+									"paraCursar": [
+										{
+											"mat": "Ecología",
+											"cond": "A"
+										},
+										{
+											"mat": "Genética",
+											"cond": "A"
+										}
+									],
+									"paraRendir": [],
+									"planDeEstudio": null,
+									"mesas": []
+								},
+								{
+									"materia": "Genética Evolutiva",
+									"paraCursar": [
+										{
+											"mat": "Citogenética",
+											"cond": "R"
+										}
+									],
+									"paraRendir": [],
+									"planDeEstudio": null,
+									"mesas": []
+								}
+							]
+						},
+						{
+							"nombre": "Paleontología",
+							"materias": [
+								{
+									"materia": "Sedimentología",
+									"paraCursar": [],
+									"paraRendir": [
+										{
+											"mat": "Geología",
+											"cond": "A"
+										}
+									],
+									"planDeEstudio": null,
+									"mesas": []
+								},
+								{
+									"materia": "Paleovertebrados",
+									"paraCursar": [],
+									"paraRendir": [
+										{
+											"mat": "Paleontología",
+											"cond": "A"
+										}
+									],
+									"planDeEstudio": null,
+									"mesas": []
+								},
+								{
+									"materia": "Paleobiogeografía",
+									"paraCursar": [
+										{
+											"mat": "Geología Histórica",
+											"cond": "R"
+										},
+										{
+											"mat": "Sedimentología",
+											"cond": "R"
+										}
+									],
+									"paraRendir": [],
+									"planDeEstudio": null,
+									"mesas": []
+								}
+							]
+						},
+						{
+							"nombre": "Zoología",
+							"materias": [
+								{
+									"materia": "Ecología Animal",
+									"paraCursar": [
+										{
+											"mat": "Biología de los Cordados",
+											"cond": "A"
+										},
+										{
+											"mat": "Estadística",
+											"cond": "A"
+										},
+										{
+											"mat": "Ecología",
+											"cond": "R"
+										}
+									],
+									"paraRendir": [
+										{
+											"mat": "Ecología",
+											"cond": "A"
+										}
+									],
+									"planDeEstudio": null,
+									"mesas": []
+								},
+								{
+									"materia": "Biología de los Artrópodos",
+									"paraCursar": [
+										{
+											"mat": "Biología de los Invertebrados",
+											"cond": "A"
+										}
+									],
+									"paraRendir": [
+										{
+											"mat": "Biología de los Invertebrados",
+											"cond": "A"
+										}
+									],
+									"planDeEstudio": null,
+									"mesas": []
+								}
+							]
+						},
+						{
+							"nombre": "Ecología",
+							"materias": [
+								{
+									"materia": "Ecología de Comunidades",
+									"paraCursar": [
+										{
+											"mat": "Ecología Animal",
+											"cond": "A"
+										},
+										{
+											"mat": "Ecología Vegetal",
+											"cond": "A"
+										},
+										{
+											"mat": "Ecología de las Poblaciones",
+											"cond": "R"
+										}
+									],
+									"paraRendir": [
+										{
+											"mat": "Ecología de las Poblaciones",
+											"cond": "A"
+										}
+									],
+									"planDeEstudio": null,
+									"mesas": []
+								},
+								{
+									"materia": "Limnología",
+									"paraCursar": [
+										{
+											"mat": "Ecología de las Poblaciones",
+											"cond": "A"
+										},
+										{
+											"mat": "Ecología de Comunidades",
+											"cond": "R"
+										}
+									],
+									"paraRendir": [
+										{
+											"mat": "Ecología de Comunidades",
+											"cond": "A"
+										}
+									],
+									"planDeEstudio": null,
+									"mesas": []
+								},
+								{
+									"materia": "Manejo de Recursos Naturales",
+									"paraCursar": [
+										{
+											"mat": "Ecología de las Poblaciones",
+											"cond": "A"
+										},
+										{
+											"mat": "Ecología de Comunidades",
+											"cond": "R"
+										}
+									],
+									"paraRendir": [
+										{
+											"mat": "Ecología de Comunidades",
+											"cond": "A"
+										}
+									],
 									"planDeEstudio": null,
 									"mesas": []
 								}
@@ -4549,25 +5441,23 @@
 							"mesas": []
 						}
 					]
-				}
-			]
-		},
-		{
-			"carrera": "Profesorado-Universitario-en-Informática",
-			"emoji": "🖱️",
-			"cursada": [
+				},
 				{
-					"año": 1,
-					"materias": [
+					"carrera": "Profesorado-Universitario-en-Informática",
+					"emoji": "🖱️",
+					"cursada": [
 						{
-							"materia": "materia I",
-							"codigo": 0,
-							"paraCursar": [],
-							"paraRendir": [],
-							"planDeEstudio": null,
-							"mesas": [],
-							"planDeEstudio": null,
-							"mesas": []
+							"año": 1,
+							"materias": [
+								{
+									"materia": "materia I",
+									"codigo": 0,
+									"paraCursar": [],
+									"paraRendir": [],
+									"planDeEstudio": null,
+									"mesas": []
+								}
+							]
 						}
 					]
 				}
