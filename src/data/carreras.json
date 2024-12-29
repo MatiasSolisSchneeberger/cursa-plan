@@ -2268,20 +2268,539 @@
 					"año": 1,
 					"materias": [
 						{
-							"materia": "",
-							"codigo": 0,
+							"materia": "Algebra y Geometría Analítica",
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Calculo Diferencial e Integral I",
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Química General",
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Seminario de Ingeniería- Modulo I",
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Sistemas de Representación",
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Informática",
+							"paraCursar": [],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Calculo Diferencial e Integral II",
 							"paraCursar": [
 								{
-									"mat": "",
-									"cond": ""
+									"mat": "Calculo Diferencial e Integral I",
+									"cond": "R"
 								}
 							],
 							"paraRendir": [
 								{
-									"mat": "",
-									"cond": ""
+									"mat": "Calculo Diferencial e Integral I",
+									"cond": "A"
 								}
 							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Mecánica, Óptica y Sonido",
+							"paraCursar": [
+								{
+									"mat": "Calculo Diferencial e Integral I",
+									"cond": "R"
+								},
+								{
+									"mat": "Algebra y Geometría Analítica",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Calculo Diferencial e Integral I",
+									"cond": "A"
+								},
+								{
+									"mat": "Algebra y Geometría Analítica",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						}
+					]
+				},
+				{
+					"año": 2,
+					"materias": [
+						{
+							"materia": "Mecánica Técnica",
+							"paraCursar": [
+								{
+									"mat": "Sistemas de Representación",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "MOS",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Electricidad, Magnetismo y Calor",
+							"paraCursar": [
+								{
+									"mat": "MOS",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Calculo Diferencial e Integral I",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Estadística y Análisis de Datos",
+							"paraCursar": [
+								{
+									"mat": "Algebra y Geometría Analítica",
+									"cond": "R"
+								},
+								{
+									"mat": "Calculo Diferencial e Integral II",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Calculo Diferencial e Integral I",
+									"cond": "A"
+								},
+								{
+									"mat": "Algebra y Geometría Analítica",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Física Atómica",
+							"paraCursar": [
+								{
+									"mat": "MOS",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "MOS",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Seminario de Ingeniería- Modulo II",
+							"paraCursar": [
+								{
+									"mat": "Seminario de Ingeniería- Modulo I",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Física del Estado Solido",
+							"paraCursar": [
+								{
+									"mat": "Electricidad, Magnetismo y calor",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Electricidad, Magnetismo y calor",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Métodos Numéricos",
+							"paraCursar": [
+								{
+									"mat": "Informática",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Algebra y Geometría Analítica",
+									"cond": "A"
+								},
+								{
+									"mat": "Calculo Diferencial e Integral I",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Materiales y Componentes",
+							"paraCursar": [
+								{
+									"mat": "Electricidad, Magnetismo y calor",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Química General",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						}
+					]
+				},
+				{
+					"año": 3,
+					"materias": [
+						{
+							"materia": "Análisis Matemático",
+							"paraCursar": [
+								{
+									"mat": "Calculo Diferencial e Integral II",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Calculo Diferencial e Integral II",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Electrotecnia II",
+							"paraCursar": [
+								{
+									"mat": "Electrotecnia I",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						}
+					]
+				},
+				{
+					"año": 4,
+					"materias": [
+						{
+							"materia": "Circuitos Lógicos",
+							"paraCursar": [
+								{
+									"mat": "Electrónica I",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Instalaciones Eléctricas I",
+							"paraCursar": [
+								{
+									"mat": "Electrotecnia II",
+									"cond": "R"
+								},
+								{
+									"mat": "Materiales y Componentes",
+									"cond": "A"
+								},
+								{
+									"mat": "Medidas Eléctricas",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Teoría de control",
+							"paraCursar": [
+								{
+									"mat": "Teoría de los Circuitos",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Análisis Matemático",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Seminario de Ingeniería-Modulo IV",
+							"paraCursar": [
+								{
+									"mat": "Seminario de Ingeniería-Modulo III",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Economía y Org. Industrial",
+							"paraCursar": [
+								{
+									"mat": "Seminario de Ingeniería-Modulo III",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Electrónica Industrial",
+							"paraCursar": [
+								{
+									"mat": "Electrotecnia II",
+									"cond": "R"
+								},
+								{
+									"mat": "Electrónica I",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Maquinas Hidráulicas y Térmicas",
+							"paraCursar": [
+								{
+									"mat": "Termodinámica",
+									"cond": "R"
+								},
+								{
+									"mat": "Mecánica Técnica",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Transmisión de la Energía",
+							"paraCursar": [
+								{
+									"mat": "Electrotecnia II",
+									"cond": "R"
+								},
+								{
+									"mat": "Mecánica Técnica",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						}
+					]
+				},
+				{
+					"año": 5,
+					"materias": [
+						{
+							"materia": "Ingeniería Legal",
+							"paraCursar": [
+								{
+									"mat": "Seminario de Ingeniería-Modulo IV",
+									"cond": "A"
+								},
+								{
+									"mat": "Prueba de Traducción",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Instalaciones Eléctricas II",
+							"paraCursar": [
+								{
+									"mat": "Instalaciones Eléctricas I",
+									"cond": "A"
+								},
+								{
+									"mat": "Prueba de Traducción",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Sistemas de Potencia",
+							"paraCursar": [
+								{
+									"mat": "Transmisión de la Energía",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Teoría de Control",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Proyecto Final (anual)",
+							"paraCursar": [
+								{
+									"mat": "Instalaciones Eléctricas I",
+									"cond": "R"
+								},
+								{
+									"mat": "Transmisión de la Energía",
+									"cond": "R"
+								},
+								{
+									"mat": "Electrónica Industrial",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Teoría de Control",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Seminario de Ingeniería-Modulo V",
+							"paraCursar": [
+								{
+									"mat": "Seminario de Ingeniería-Modulo IV",
+									"cond": "A"
+								},
+								{
+									"mat": "Prueba de Traducción",
+									"cond": "A"
+								}
+							],
+							"paraRendir": [],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Centrales Eléctricas",
+							"paraCursar": [
+								{
+									"mat": "Electrotecnia II",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Instalaciones Eléctricas I",
+									"cond": "A"
+								},
+								{
+									"mat": "Maquinas Hidráulicas y Térmicas",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Diseño de Líneas de Tras. Y Estaciones Transformadoras",
+							"paraCursar": [
+								{
+									"mat": "Instalaciones Eléctricas II",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [
+								{
+									"mat": "Transmisión de la Energía",
+									"cond": "A"
+								}
+							],
+							"planDeEstudio": null,
+							"mesas": []
+						},
+						{
+							"materia": "Distribución de la Energía",
+							"paraCursar": [
+								{
+									"mat": "Instalaciones Eléctricas II",
+									"cond": "R"
+								}
+							],
+							"paraRendir": [],
 							"planDeEstudio": null,
 							"mesas": []
 						}
