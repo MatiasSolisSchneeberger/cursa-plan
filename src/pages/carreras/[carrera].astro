@@ -10,9 +10,11 @@ import TarjetaMateria from "@components/TarjetaMateria.astro";
 import BotonAnno from "@components/BotonAño.jsx";
 
 export const getStaticPaths: GetStaticPaths = () => {
-	return carreras.map(({ carrera }) => ({
-		params: { carrera },
-	}));
+	return carreras
+		.filter(({ cursada }) => cursada.length > 0) // Filtrar carreras sin cursada
+		.map(({ carrera }) => ({
+			params: { carrera },
+		}));
 };
 
 const { carrera } = Astro.params;
@@ -30,10 +32,10 @@ const NombreCarrera = carreraData.carrera.replace(/-/g, " ");
 <Layout title=`${NombreCarrera} | Plan de estudio`>
 	<!-- Titulo de Pagina -->
 	<HeaderCarrera carrera={carreraData.carrera} emoji={carreraData.emoji} />
-	<BotonAnno carreraData={carreraData} client:visible/>
+	<BotonAnno carreraData={carreraData} client:visible />
 	<!-- map de array de los años -->
 	{
-		carreraData.cursada.map(({ año, materias, orientaciones }) => {
+		carreraData.cursada?.map(({ año, materias, orientaciones }) => {
 			if (orientaciones) {
 				// Si el año tiene orientaciones
 				return orientaciones.map(
@@ -82,7 +84,7 @@ const NombreCarrera = carreraData.carrera.replace(/-/g, " ");
 				// Si el año no tiene orientaciones
 				return (
 					<AñoCarrera año={año}>
-						{materias.map(
+						{materias?.map(
 							({
 								materia,
 								codigo,

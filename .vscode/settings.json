@@ -22,7 +22,8 @@
         "latex",
         "plaintext",
         "astro",
-        "json"
+        "json",
+        "javascriptreact"
     ],
     "spellright.parserByClass": {
         "astro": {

@@ -4754,59 +4754,17 @@
 		{
 			"carrera": "Licenciatura-en-Ciencias-Físicas",
 			"emoji": "🌌",
-			"cursada": [
-				{
-					"año": 1,
-					"materias": [
-						{
-							"materia": "materia I",
-							"codigo": 0,
-							"paraCursar": [],
-							"paraRendir": [],
-							"planDeEstudio": null,
-							"mesas": []
-						}
-					]
-				}
-			]
+			"cursada": []
 		},
 		{
 			"carrera": "Licenciatura-en-Ciencias-Químicas",
 			"emoji": "🧪",
-			"cursada": [
-				{
-					"año": 1,
-					"materias": [
-						{
-							"materia": "materia I",
-							"codigo": 0,
-							"paraCursar": [],
-							"paraRendir": [],
-							"planDeEstudio": null,
-							"mesas": []
-						}
-					]
-				}
-			]
+			"cursada": []
 		},
 		{
 			"carrera": "Licenciatura-en-Matemática",
 			"emoji": "➗",
-			"cursada": [
-				{
-					"año": 1,
-					"materias": [
-						{
-							"materia": "materia I",
-							"codigo": 0,
-							"paraCursar": [],
-							"paraRendir": [],
-							"planDeEstudio": null,
-							"mesas": []
-						}
-					]
-				}
-			]
+			"cursada": []
 		},
 		{
 			"carrera": "Licenciatura-en-Sistemas-de-Información",
@@ -4821,7 +4779,19 @@
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": null,
-							"mesas": []
+							"mesas": [
+								"2025-02-19",
+								"2025-03-12",
+								"2025-03-26",
+								"2025-05-07",
+								"2025-07-02",
+								"2025-07-30",
+								"2025-09-03",
+								"2025-10-08",
+								"2025-12-01",
+								"2025-12-17"
+
+							]
 						},
 						{
 							"materia": "Algebra",
@@ -4829,7 +4799,19 @@
 							"paraCursar": [],
 							"paraRendir": [],
 							"planDeEstudio": null,
-							"mesas": []
+							"mesas": [
+								"2025-02-18",
+								"2025-03-11",
+								"2025-03-27",
+								"2025-05-06",
+								"2025-07-01",
+								"2025-07-29",
+								"2025-09-02",
+								"2025-10-07",
+								"2025-11-25",
+								"2025-12-16"
+
+							]
 						},
 						{
 							"materia": "Algoritmos y Estructuras de Datos II",
@@ -5451,78 +5433,22 @@
 		{
 			"carrera": "Licenciatura-en-Didáctica-de-la-Matemática",
 			"emoji": "📚",
-			"cursada": [
-				{
-					"año": 1,
-					"materias": [
-						{
-							"materia": "materia I",
-							"codigo": 0,
-							"paraCursar": [],
-							"paraRendir": [],
-							"planDeEstudio": null,
-							"mesas": []
-						}
-					]
-				}
-			]
+			"cursada": []
 		},
 		{
 			"carrera": "Profesorado-en-Biología",
 			"emoji": "🦋",
-			"cursada": [
-				{
-					"año": 1,
-					"materias": [
-						{
-							"materia": "materia I",
-							"codigo": 0,
-							"paraCursar": [],
-							"paraRendir": [],
-							"planDeEstudio": null,
-							"mesas": []
-						}
-					]
-				}
-			]
+			"cursada": []
 		},
 		{
 			"carrera": "Profesorado-en-Ciencias-Químicas-y-del-Ambiente",
 			"emoji": "🧬",
-			"cursada": [
-				{
-					"año": 1,
-					"materias": [
-						{
-							"materia": "materia I",
-							"codigo": 0,
-							"paraCursar": [],
-							"paraRendir": [],
-							"planDeEstudio": null,
-							"mesas": []
-						}
-					]
-				}
-			]
+			"cursada": []
 		},
 		{
 			"carrera": "Profesorado-en-Física",
 			"emoji": "🔭",
-			"cursada": [
-				{
-					"año": 1,
-					"materias": [
-						{
-							"materia": "materia I",
-							"codigo": 0,
-							"paraCursar": [],
-							"paraRendir": [],
-							"planDeEstudio": null,
-							"mesas": []
-						}
-					]
-				}
-			]
+			"cursada": []
 		},
 		{
 			"carrera": "Profesorado-en-Matemática",

@@ -1,38 +1,38 @@
 export interface carreras {
-    carreras: Array<carrera>;
+    carreras: Array<Carrera>;
 }
 
-interface carrera {
+interface Carrera {
     carrera: string;
     emoji: string;
-    cursada: Array<cursada>;
+    cursada: Array<Cursada>;
 }
 
-interface cursada {
+interface Cursada {
     año: number;
-    materias?: Array<materia>;
-    orientaciones?: Array<orientacion>;
+    materias?: Array<Materia>;
+    orientaciones?: Array<Orientacion>;
 }
 
-interface materia {
+interface Materia {
     materia: string;
     codigo: number;
-    paraCursar: Array<condicion> | null;
-    paraRendir: Array<condicion> | null;
+    paraCursar: Array<Condicion> | null;
+    paraRendir: Array<Condicion> | null;
     planDeEstudio: string | null;
-    mesas: Array<mesa> | null;
+    mesas: Array<Mesa> | null;
 }
 
-export interface orientacion {
+export interface Orientacion {
     nombre: string;
-    materias: Array<materia>;
+    materias: Array<Materia>;
 }
 
-interface condicion {
+interface Condicion {
     mat: string
     cond: "R" | "A" | null, // "R" = Regular, "A" = Aprobada
 }
 
-interface mesa {
+interface Mesa {
     fecha: Date;
 }
