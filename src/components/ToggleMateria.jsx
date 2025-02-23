@@ -76,9 +76,9 @@ const ToggleMateria = ({ materia, mesas, planDeEstudio }) => {
 							)}
 						</div>
 						<div className="flex flex-wrap gap-2.5 w-full">
-							<md-filled-tonal-butto disabled={!mesas?.length} className="w-full flex-1 text-on-primary">
+							<md-filled-tonal-button disabled={!mesas?.length} className="w-full flex-1 text-on-primary">
 								Ver Mas
-							</md-filled-tonal-butto>
+							</md-filled-tonal-button>
 							{/* <md-dialog>
 								<div slot="headline">
 									Dialog title
