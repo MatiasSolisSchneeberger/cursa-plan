@@ -1,4 +1,4 @@
-import { N as NOOP_MIDDLEWARE_HEADER, D as DEFAULT_404_COMPONENT } from './astro/server_CbYn3z7O.mjs';
+import { N as NOOP_MIDDLEWARE_HEADER, D as DEFAULT_404_COMPONENT } from './astro/server_BhrF7Kt2.mjs';
 import { parse } from 'devalue';
 import { escape } from 'html-escaper';
 
@@ -113,7 +113,7 @@ function deserializeActionResult(res) {
         })
       };
     }
-    if (Object.assign(__vite_import_meta_env__, { _: process.env._ })?.PROD) {
+    if (Object.assign(__vite_import_meta_env__, { OS: process.env.OS })?.PROD) {
       return { error: ActionError.fromJson(json), data: void 0 };
     } else {
       const error = ActionError.fromJson(json);

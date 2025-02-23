@@ -4,7 +4,7 @@ import { escape } from 'html-escaper';
 import { decodeBase64, encodeHexUpperCase, encodeBase64, decodeHex } from '@oslojs/encoding';
 import cssesc from 'cssesc';
 
-const ASTRO_VERSION = "5.0.5";
+const ASTRO_VERSION = "5.1.1";
 const REROUTE_DIRECTIVE_HEADER = "X-Astro-Reroute";
 const REWRITE_DIRECTIVE_HEADER_KEY = "X-Astro-Rewrite";
 const REWRITE_DIRECTIVE_HEADER_VALUE = "yes";
@@ -231,6 +231,18 @@ const AstroResponseHeadersReassigned = {
   title: "`Astro.response.headers` must not be reassigned.",
   message: "Individual headers can be added to and removed from `Astro.response.headers`, but it must not be replaced with another instance of `Headers` altogether.",
   hint: "Consider using `Astro.response.headers.add()`, and `Astro.response.headers.delete()`."
+};
+const SessionStorageInitError = {
+  name: "SessionStorageInitError",
+  title: "Session storage could not be initialized.",
+  message: (error, driver) => `Error when initializing session storage${driver ? ` with driver ${driver}` : ""}. ${error ?? ""}`,
+  hint: "For more information, see https://docs.astro.build/en/reference/experimental-flags/sessions/"
+};
+const SessionStorageSaveError = {
+  name: "SessionStorageSaveError",
+  title: "Session data could not be saved.",
+  message: (error, driver) => `Error when saving session data${driver ? ` with driver ${driver}` : ""}. ${error ?? ""}`,
+  hint: "For more information, see https://docs.astro.build/en/reference/experimental-flags/sessions/"
 };
 const LocalImageUsedWrongly = {
   name: "LocalImageUsedWrongly",
@@ -889,7 +901,7 @@ function getPrescripts(result, type, directive) {
 }
 
 const voidElementNames = /^(area|base|br|col|command|embed|hr|img|input|keygen|link|meta|param|source|track|wbr)$/i;
-const htmlBooleanAttributes = /^(?:allowfullscreen|async|autofocus|autoplay|checked|controls|default|defer|disabled|disablepictureinpicture|disableremoteplayback|formnovalidate|hidden|loop|nomodule|novalidate|open|playsinline|readonly|required|reversed|scoped|seamless|selected|itemscope)$/i;
+const htmlBooleanAttributes = /^(?:allowfullscreen|async|autofocus|autoplay|checked|controls|default|defer|disabled|disablepictureinpicture|disableremoteplayback|formnovalidate|hidden|inert|loop|nomodule|novalidate|open|playsinline|readonly|required|reversed|scoped|seamless|selected|itemscope)$/i;
 const AMPERSAND_REGEX = /&/g;
 const DOUBLE_QUOTE_REGEX = /"/g;
 const STATIC_DIRECTIVES = /* @__PURE__ */ new Set(["set:html", "set:text"]);
@@ -2632,4 +2644,4 @@ function spreadAttributes(values = {}, _name, { class: scopedClassName } = {}) {
   return markHTMLString(output);
 }
 
-export { chunkToString as $, AstroError as A, MiddlewareNotAResponse as B, RewriteWithBodyUsed as C, DEFAULT_404_COMPONENT as D, ExpectedImage as E, Fragment as F, originPathnameSymbol as G, GetStaticPathsRequired as H, IncompatibleDescriptorOptions as I, InvalidGetStaticPathsReturn as J, InvalidGetStaticPathsEntry as K, LocalImageUsedWrongly as L, MissingSharp as M, NOOP_MIDDLEWARE_HEADER as N, GetStaticPathsExpectedParams as O, GetStaticPathsInvalidRouteParam as P, PageNumberParamNotFound as Q, ROUTE_TYPE_HEADER as R, decryptString as S, createSlotValueFromString as T, UnsupportedImageFormat as U, isAstroComponentFactory as V, NoMatchingStaticPathFound as W, PrerenderDynamicEndpointPathCollide as X, ReservedSlotName as Y, renderSlotToString as Z, renderJSX as _, addAttribute as a, isRenderInstruction as a0, ForbiddenRewrite as a1, LocalsReassigned as a2, AstroResponseHeadersReassigned as a3, PrerenderClientAddressNotAvailable as a4, clientAddressSymbol as a5, ClientAddressNotAvailable as a6, StaticClientAddressNotAvailable as a7, ASTRO_VERSION as a8, responseSentSymbol as a9, renderPage as aa, REWRITE_DIRECTIVE_HEADER_KEY as ab, REWRITE_DIRECTIVE_HEADER_VALUE as ac, renderEndpoint as ad, LocalsNotAnObject as ae, REROUTABLE_STATUS_CODES as af, renderTransition as b, createComponent as c, decodeKey as d, createAstro as e, renderComponent as f, renderSlot as g, renderScript as h, renderHead as i, MissingImageDimension as j, UnsupportedImageConversion as k, NoImageMetadata as l, maybeRenderHead as m, FailedToFetchRemoteImageDimensions as n, ExpectedImageOptions as o, ExpectedNotESMImage as p, InvalidImageService as q, renderTemplate as r, spreadAttributes as s, toStyleString as t, unescapeHTML as u, ImageMissingAlt as v, REROUTE_DIRECTIVE_HEADER as w, i18nNoLocaleFoundInPath as x, ResponseSentError as y, MiddlewareNoDataOrNextCalled as z };
+export { chunkToString as $, AstroError as A, MiddlewareNotAResponse as B, RewriteWithBodyUsed as C, DEFAULT_404_COMPONENT as D, ExpectedImage as E, Fragment as F, originPathnameSymbol as G, GetStaticPathsRequired as H, IncompatibleDescriptorOptions as I, InvalidGetStaticPathsReturn as J, InvalidGetStaticPathsEntry as K, LocalImageUsedWrongly as L, MissingSharp as M, NOOP_MIDDLEWARE_HEADER as N, GetStaticPathsExpectedParams as O, GetStaticPathsInvalidRouteParam as P, PageNumberParamNotFound as Q, ROUTE_TYPE_HEADER as R, decryptString as S, createSlotValueFromString as T, UnsupportedImageFormat as U, isAstroComponentFactory as V, NoMatchingStaticPathFound as W, PrerenderDynamicEndpointPathCollide as X, ReservedSlotName as Y, renderSlotToString as Z, renderJSX as _, addAttribute as a, isRenderInstruction as a0, ForbiddenRewrite as a1, SessionStorageSaveError as a2, SessionStorageInitError as a3, LocalsReassigned as a4, AstroResponseHeadersReassigned as a5, PrerenderClientAddressNotAvailable as a6, clientAddressSymbol as a7, ClientAddressNotAvailable as a8, StaticClientAddressNotAvailable as a9, ASTRO_VERSION as aa, responseSentSymbol as ab, renderPage as ac, REWRITE_DIRECTIVE_HEADER_KEY as ad, REWRITE_DIRECTIVE_HEADER_VALUE as ae, renderEndpoint as af, LocalsNotAnObject as ag, REROUTABLE_STATUS_CODES as ah, renderTransition as b, createComponent as c, decodeKey as d, createAstro as e, renderComponent as f, renderSlot as g, renderScript as h, renderHead as i, MissingImageDimension as j, UnsupportedImageConversion as k, NoImageMetadata as l, maybeRenderHead as m, FailedToFetchRemoteImageDimensions as n, ExpectedImageOptions as o, ExpectedNotESMImage as p, InvalidImageService as q, renderTemplate as r, spreadAttributes as s, toStyleString as t, unescapeHTML as u, ImageMissingAlt as v, REROUTE_DIRECTIVE_HEADER as w, i18nNoLocaleFoundInPath as x, ResponseSentError as y, MiddlewareNoDataOrNextCalled as z };

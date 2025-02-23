@@ -1,7 +1,7 @@
 /* empty css                                        */
-import { c as createComponent, r as renderTemplate, m as maybeRenderHead, a as addAttribute, g as renderSlot, e as createAstro, b as renderTransition, f as renderComponent } from '../../chunks/astro/server_CbYn3z7O.mjs';
+import { c as createComponent, r as renderTemplate, m as maybeRenderHead, a as addAttribute, g as renderSlot, e as createAstro, b as renderTransition, f as renderComponent } from '../../chunks/astro/server_BhrF7Kt2.mjs';
 import 'kleur/colors';
-import { a as $$Icon, c as carreras, $ as $$Layout } from '../../chunks/Layout_fTV9PuVr.mjs';
+import { a as $$Icon, c as carreras, $ as $$Layout } from '../../chunks/Layout_iI79nCHB.mjs';
 import 'clsx';
 import { jsxs, jsx, Fragment } from 'react/jsx-runtime';
 import { useState, useEffect } from 'react';
@@ -26,7 +26,7 @@ const $$AoCarrera = createComponent(($$result, $$props, $$slots) => {
     id = `${a\u00F1o}`;
   }
   return renderTemplate`${maybeRenderHead()}<section${addAttribute(`${id}`, "id")} class="flex flex-col gap-2.5 items-center justify-center self-stretch shrink-0 relative w-full overflow-hidden"> <!-- encabezado año --> <h3 class="text-headline-medium text-on-background text-center w-full"> ${a\u00F1o}<span>${sufijo}</span> Año${orientacion && ` - ${orientacion}`} </h3> <div class="grid grid-cols-1 md:grid-cols-2 2xl:grid-cols-3 w-full gap-4"> <!-- Contenido del slot --> ${renderSlot($$result, $$slots["default"])} </div> </section>`;
-}, "/home/user/cursa-plan/src/components/A\xF1oCarrera.astro", void 0);
+}, "D:/Matias/Facultad/Programacion/cursa-plan/src/components/A\xF1oCarrera.astro", void 0);
 
 const $$Astro$4 = createAstro();
 const $$HeaderCarrera = createComponent(($$result, $$props, $$slots) => {
@@ -37,7 +37,7 @@ const $$HeaderCarrera = createComponent(($$result, $$props, $$slots) => {
   return renderTemplate`${maybeRenderHead()}<header${addAttribute(`rounded-full border border-outline p-3 flex flex-row gap-2.5 items-center justify-start self-stretch shrink-0 relative overflow-hidden`, "class")}${addAttribute({
     background: `linear-gradient(to left, var(--carrera-${carrera}) 25%, transparent)`
   }, "style")}${addAttribute(renderTransition($$result, "xo3zsqa6", "", `header-${carrera}`), "data-astro-transition-scope")}> ${renderComponent($$result, "md-filled-icon-button", "md-filled-icon-button", { "href": "/" }, { "default": () => renderTemplate` ${renderComponent($$result, "Icon", $$Icon, { "name": "arrow-left", "size": 22 })} ` })} <h2 class="text-on-background text-headline-small relative flex-1 flex items-center justify-center text-center"${addAttribute(renderTransition($$result, "wliqsuav", "", `nombre-${carrera}`), "data-astro-transition-scope")}> ${NombreCarrera} </h2> <div class="bg-surface-variant rounded-full p-3 flex flex-row gap-2.5 items-center justify-center shrink-0 w-10 h-10 relative"> <div class="text-on-primary text-center text-title-medium relative flex items-center justify-center"${addAttribute(renderTransition($$result, "dyhsrzot", "", `emoji-${carrera}`), "data-astro-transition-scope")}> ${emoji} </div> </div> </header>`;
-}, "/home/user/cursa-plan/src/components/HeaderCarrera.astro", "self");
+}, "D:/Matias/Facultad/Programacion/cursa-plan/src/components/HeaderCarrera.astro", "self");
 
 const $$Astro$3 = createAstro();
 const $$MateriaRequisito = createComponent(($$result, $$props, $$slots) => {
@@ -45,7 +45,7 @@ const $$MateriaRequisito = createComponent(($$result, $$props, $$slots) => {
   Astro2.self = $$MateriaRequisito;
   const { condicion, materia } = Astro2.props;
   return renderTemplate`${maybeRenderHead()}<a${addAttribute(`#${materia}`, "href")} class="outline outline-outline outline-1 rounded-full flex flex-row gap-2.5 items-center justify-start self-stretch shrink-0 relative overflow-hidden py-1.5 pr-3 pl-1.5"> <div class="bg-tertiary rounded-full p-[5px] flex flex-col gap-2.5 items-center justify-center shrink-0 w-6 h-6 relative"> <p class="text-on-tertiary text-center text-title-medium relative flex items-center justify-center"> ${condicion} </p> </div> <div class="flex flex-row pr-2 items-center justify-start flex-1 relative"> <p class="text-on-secondary-container text-title-small relative flex items-center text-start justify-center"> ${materia} </p> </div> </a>`;
-}, "/home/user/cursa-plan/src/components/MateriaRequisito.astro", void 0);
+}, "D:/Matias/Facultad/Programacion/cursa-plan/src/components/MateriaRequisito.astro", void 0);
 
 const $$Astro$2 = createAstro();
 const $$RequisitosPara = createComponent(($$result, $$props, $$slots) => {
@@ -59,7 +59,7 @@ Requisitos Para ${CursarRendir}:
   }) : renderTemplate`<div class="flex flex-row pr-2 items-center justify-start flex-1 relative"> <p class="text-on-secondary-container text-title-small relative flex items-center text-center justify-center">
 No hay correlativas
 </p> </div>`} </div> </div>`;
-}, "/home/user/cursa-plan/src/components/RequisitosPara.astro", void 0);
+}, "D:/Matias/Facultad/Programacion/cursa-plan/src/components/RequisitosPara.astro", void 0);
 
 const ToggleMateria = ({ materia, mesas, planDeEstudio }) => {
   const baseURL = "https://www.google.com/calendar/render?action=TEMPLATE";
@@ -150,8 +150,8 @@ const $$TarjetaMateria = createComponent(($$result, $$props, $$slots) => {
   const Astro2 = $$result.createAstro($$Astro$1, $$props, $$slots);
   Astro2.self = $$TarjetaMateria;
   const { materia, codigo, paraCursar, paraRendir, planDeEstudio, mesas } = Astro2.props;
-  return renderTemplate`${maybeRenderHead()}<article${addAttribute(materia, "id")} class="w-full rounded-3xl border-solid border-outline border p-2 flex flex-col gap-2 items-center justify-start flex-1 relative overflow-hidden"> <!-- Info de la materia --> <div class="flex flex-row w-full gap-2.5 items-center justify-center relative"> <!-- Nombre de la Materia --> <div class="bg-primary-container w-full rounded-2xl flex flex-col gap-2 items-start justify-start self-stretch shrink-0 relative overflow-hidden"> <!-- Titulo Materia --> ${renderComponent($$result, "ToggleMateria", ToggleMateria, { "materia": materia, "mesas": mesas, "planDeEstudio": planDeEstudio, "client:visible": true, "client:component-hydration": "visible", "client:component-path": "/home/user/cursa-plan/src/components/ToggleMateria.jsx", "client:component-export": "default" })} </div> </div> <!-- Requisitos --> <div class="flex w-full flex-col lg:flex-row gap-2.5 items-start justify-start flex-1 relative"> ${renderComponent($$result, "RequisitosPara", $$RequisitosPara, { "CursarRendir": "Cursar", "requisitos": paraCursar })} ${renderComponent($$result, "RequisitosPara", $$RequisitosPara, { "CursarRendir": "Rendir", "requisitos": paraRendir })} </div> </article>`;
-}, "/home/user/cursa-plan/src/components/TarjetaMateria.astro", void 0);
+  return renderTemplate`${maybeRenderHead()}<article${addAttribute(materia, "id")} class="w-full rounded-3xl border-solid border-outline border p-2 flex flex-col gap-2 items-center justify-start flex-1 relative overflow-hidden"> <!-- Info de la materia --> <div class="flex flex-row w-full gap-2.5 items-center justify-center relative"> <!-- Nombre de la Materia --> <div class="bg-primary-container w-full rounded-2xl flex flex-col gap-2 items-start justify-start self-stretch shrink-0 relative overflow-hidden"> <!-- Titulo Materia --> ${renderComponent($$result, "ToggleMateria", ToggleMateria, { "materia": materia, "mesas": mesas, "planDeEstudio": planDeEstudio, "client:visible": true, "client:component-hydration": "visible", "client:component-path": "D:/Matias/Facultad/Programacion/cursa-plan/src/components/ToggleMateria.jsx", "client:component-export": "default" })} </div> </div> <!-- Requisitos --> <div class="flex w-full flex-col lg:flex-row gap-2.5 items-start justify-start flex-1 relative"> ${renderComponent($$result, "RequisitosPara", $$RequisitosPara, { "CursarRendir": "Cursar", "requisitos": paraCursar })} ${renderComponent($$result, "RequisitosPara", $$RequisitosPara, { "CursarRendir": "Rendir", "requisitos": paraRendir })} </div> </article>`;
+}, "D:/Matias/Facultad/Programacion/cursa-plan/src/components/TarjetaMateria.astro", void 0);
 
 function Carrera({ carreraData }) {
   function obtenerSufijo(p_año) {
@@ -252,9 +252,9 @@ const $$carrera = createComponent(($$result, $$props, $$slots) => {
       )}` })}`;
     }
   })}` })}`;
-}, "/home/user/cursa-plan/src/pages/carreras/[carrera].astro", void 0);
+}, "D:/Matias/Facultad/Programacion/cursa-plan/src/pages/carreras/[carrera].astro", void 0);
 
-const $$file = "/home/user/cursa-plan/src/pages/carreras/[carrera].astro";
+const $$file = "D:/Matias/Facultad/Programacion/cursa-plan/src/pages/carreras/[carrera].astro";
 const $$url = "/carreras/[carrera]";
 
 const _page = /*#__PURE__*/Object.freeze(/*#__PURE__*/Object.defineProperty({
