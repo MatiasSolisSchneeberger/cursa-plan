@@ -38,43 +38,86 @@ const { title } = Astro.props;
 <!doctype html>
 <html lang="es" data-theme="light">
 	<head>
-		<!-- HTML Meta Tags -->
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+		<!-- Título optimizado -->
+		<title>{title}</title>
+
+		<!-- Meta descripción -->
 		<meta
 			name="description"
-			content="CursaPlan | Plan de estudios de alas carreras de la FaCENA, 0.50"
+			content="Encuentra los planes de estudio detallados de todas las carreras de FaCENA. Información actualizada sobre materias, correlatividades y más."
 		/>
 
-		<!-- Facebook Meta Tags -->
-		<meta property="og:url" content="https://cursa-plan.vercel.app/" />
-		<meta property="og:type" content="website" />
-		<meta property="og:title" content="CursaPlan | Plan de estudios" />
+		<!-- Palabras clave -->
+		<meta
+			name="keywords"
+			content="CursaPlan, planes de estudio FaCENA, carreras FaCENA, materias, correlatividades, universidad, Facultad de Ciencias Exactas y Naturales"
+		/>
+
+		<!-- Autor -->
+		<meta name="author" content="CursaPlan Team" />
+
+		<!-- Favicon -->
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+		<!-- Etiquetas Open Graph (Para Facebook, LinkedIn, etc.) -->
+		<meta
+			property="og:title"
+			content="CursaPlan - Planes de Estudio de FaCENA"
+		/>
 		<meta
 			property="og:description"
-			content="CursaPlan | Plan de estudios de alas carreras de la FaCENA, 0.50"
+			content="Consulta los planes de estudio de todas las carreras de FaCENA con información actualizada sobre materias y correlatividades."
 		/>
-		<meta property="og:image" content="/157shots_so.png" />
+		<meta
+			property="og:image"
+			content="/157shots_so.png"
+		/>
+		<meta property="og:url" content="https://tudominio.com" />
+		<meta property="og:type" content="website" />
 
-		<!-- Twitter Meta Tags -->
+		<!-- Twitter Card (Para Twitter) -->
 		<meta name="twitter:card" content="summary_large_image" />
-		<meta property="twitter:domain" content="cursa-plan.vercel.app" />
-		<meta property="twitter:url" content="https://cursa-plan.vercel.app/" />
-		<meta name="twitter:title" content="CursaPlan | Plan de estudios" />
+		<meta
+			name="twitter:title"
+			content="CursaPlan - Planes de Estudio de FaCENA"
+		/>
 		<meta
 			name="twitter:description"
-			content="CursaPlan | Plan de estudios de alas carreras de la FaCENA, 0.50"
+			content="Consulta los planes de estudio de todas las carreras de FaCENA con información actualizada sobre materias y correlatividades."
 		/>
-		<meta name="twitter:image" content="/157shots_so.png" />
+		<meta
+			name="twitter:image"
+			content="/157shots_so.png"
+		/>
 
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<!-- Datos estructurados JSON-LD para SEO (Google) -->
+		<script type="application/ld+json">
+			{
+				"@context": "https://schema.org",
+				"@type": "EducationalOrganization",
+				"name": "CursaPlan",
+				"url": "https://tudominio.com",
+				"logo": "https://tudominio.com/logo.png",
+				"description": "Consulta los planes de estudio de todas las carreras de FaCENA con información detallada sobre materias y correlatividades.",
+				"sameAs": [
+					"https://facebook.com/cursaplan",
+					"https://twitter.com/cursaplan",
+					"https://instagram.com/cursaplan"
+				]
+			}
+		</script>
+		
 		<meta name="generator" content={Astro.generator} />
+
+
 		<link
 			href="https://fonts.googleapis.com/icon?family=Material+Symbols+Outlined"
 			rel="stylesheet"
 		/>
 
-		<title>{title}</title>
 
 		<script
 			is:inline
